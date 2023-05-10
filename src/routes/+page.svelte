@@ -16,13 +16,25 @@
 	import LookingForBlock from '$lib/Components/Blocks/LookingFor.svelte';
 
 	import Wise from '$lib/Components/Blocks/Personalisation/Wise.svelte';
+	import LHV from '$lib/Components/Blocks/Personalisation/LHV.svelte';
+	import LinkedIn from '$lib/Components/Blocks/Personalisation/LinkedIn.svelte';
 
   onMount(async () => {
     company = $page.url.searchParams.get('company') || '';
      
     switch (company) {
+      
       case 'Wise':
         companyComponent = Wise;
+        break;
+      
+      case 'LHV':
+        companyComponent = LHV;
+        break;
+      
+      case 'LinkedIn':
+        companyComponent = LinkedIn;
+        break;
     }
 	});
 </script>

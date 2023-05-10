@@ -11,7 +11,7 @@
 <article class="border-t border-gray-200 dark:border-gray-700 p-8">
   <header>
     <div class="mb-4 flex justify-between">
-      <h3 class="font-medium">Leadership</h3>
+      <h3 class="font-medium">Management & Team Leadership</h3>
       <p class="text-sm text-gray-600 dark:text-gray-400">2 yrs 3 mos</p>
     </div>
 
@@ -34,7 +34,7 @@
 <article class="border-t border-gray-200 dark:border-gray-700 p-8">
   <header>
     <div class="mb-4 flex justify-between">
-      <h3 class="font-medium">Development</h3>
+      <h3 class="font-medium">Development & DevOps</h3>
       <p class="text-sm text-gray-600 dark:text-gray-400">6 yrs 2 mos</p>
     </div>
 
@@ -63,7 +63,7 @@
 <article class="border-t border-gray-200 dark:border-gray-700 p-8">
   <header>
     <div class="mb-4 flex justify-between">
-      <h3 class="font-medium">Management</h3>
+      <h3 class="font-medium">Digital Product & Service Management</h3>
       <p class="text-sm text-gray-600 dark:text-gray-400">5 yrs 9 mos</p>
     </div>
 

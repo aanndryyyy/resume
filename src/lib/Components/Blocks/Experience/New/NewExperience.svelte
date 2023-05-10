@@ -4,7 +4,7 @@
   import storaenso from '$lib/assets/storaenso.png';
   import taltech from '$lib/assets/taltech.png';
 	
-  import JobItem from './ExperienceNewJobItem.svelte';
+  import ExperienceItem from './NewExperienceItem.svelte';
 </script>
 
 
@@ -16,17 +16,17 @@
     </div>
 
     <div class="flex gap-4 overflow-x-scroll">
-      <JobItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
+      <ExperienceItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
         <img slot="logo" src={storaenso} alt="Stora Enso" class="w-full h-full object-contain object-center" />
-      </JobItem>
+      </ExperienceItem>
 
-      <JobItem title="Experienced Service Specialist" subtitle="Stora Enso &middot; 10 mos">
+      <ExperienceItem title="Experienced Service Specialist" subtitle="Stora Enso &middot; 10 mos">
         <img slot="logo" src={storaenso} alt="Stora Enso" class="w-full h-full object-contain object-center" />
-      </JobItem>
+      </ExperienceItem>
 
-      <JobItem title="Management" subtitle="MSSc &middot; Tallinn University of Technology">
+      <ExperienceItem title="Management" subtitle="MSSc &middot; Tallinn University of Technology">
         <img slot="logo" src={taltech} alt="TalTech" class="w-full h-full object-contain object-center" />
-      </JobItem>
+      </ExperienceItem>
     </div>  
   </header>
 </article>
@@ -39,23 +39,23 @@
     </div>
 
     <div class="flex gap-4 overflow-x-scroll">
-      <JobItem title="Full-Stack Developer" subtitle="OK Interactive (OKIA) &middot; 10 mos">
+      <ExperienceItem title="Full-Stack Developer" subtitle="OK Interactive (OKIA) &middot; 10 mos">
         <OKIAIcon slot="logo" />
-      </JobItem>
+      </ExperienceItem>
 
-      <JobItem title="Front-End Developer" subtitle="OK Interactive (OKIA) &middot; 2 mos">
+      <ExperienceItem title="Front-End Developer" subtitle="OK Interactive (OKIA) &middot; 2 mos">
         <OKIAIcon slot="logo" />
-      </JobItem>
+      </ExperienceItem>
 
-      <JobItem title="Web Developer" subtitle="Web Systems &middot; 8 mos">
+      <ExperienceItem title="Web Developer" subtitle="Web Systems &middot; 8 mos">
         <WebSystemsIcon slot="logo" />
-      </JobItem>
+      </ExperienceItem>
 
-      <JobItem title="Computer Systems & Engineering" subtitle="BSc(Eng) &middot; Tallinn University of Technology">
+      <ExperienceItem title="Computer Systems & Engineering" subtitle="BSc(Eng) &middot; Tallinn University of Technology">
         <img slot="logo" src={taltech} alt="TalTech" class="w-full h-full object-contain object-center" />
-      </JobItem>
+      </ExperienceItem>
 
-      <JobItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />
+      <ExperienceItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />
     </div>  
   </header>
 </article>  
@@ -68,15 +68,15 @@
     </div>
 
     <div class="flex gap-4 overflow-x-scroll">
-      <JobItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
+      <ExperienceItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
         <img slot="logo" src={storaenso} alt="Stora Enso" class="w-full h-full object-contain object-center" />
-      </JobItem>
+      </ExperienceItem>
 
-      <JobItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />
+      <ExperienceItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />
 
-      <JobItem title="Management" subtitle="MSSc &middot; Tallinn University of Technology">
+      <ExperienceItem title="Management" subtitle="MSSc &middot; Tallinn University of Technology">
         <img slot="logo" src={taltech} alt="TalTech" class="w-full h-full object-contain object-center" />
-      </JobItem>
+      </ExperienceItem>
     </div>  
   </header>
 </article>

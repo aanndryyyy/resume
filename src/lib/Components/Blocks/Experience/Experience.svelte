@@ -1,5 +1,5 @@
 <script>
-  import ExperienceNew from './ExperienceNew.svelte';
+  import ExperienceNew from './New/NewExperience.svelte';
 	import ExperienceTraditional from './Traditional/ExperienceTraditional.svelte';
 
 	let experience = false;

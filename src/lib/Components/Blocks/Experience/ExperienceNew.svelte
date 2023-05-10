@@ -1,0 +1,82 @@
+<script>
+  import OKIAIcon from '$lib/Components/Icons/OKIA.svelte';
+  import WebSystemsIcon from '$lib/Components/Icons/WebSystems.svelte';
+  import storaenso from '$lib/assets/storaenso.png';
+  import taltech from '$lib/assets/taltech.png';
+	
+  import JobItem from './ExperienceNewJobItem.svelte';
+</script>
+
+
+<article class="border-t border-gray-200 dark:border-gray-700 p-8">
+  <header>
+    <div class="mb-4 flex justify-between">
+      <h3 class="font-medium">Leadership</h3>
+      <p class="text-sm text-gray-600 dark:text-gray-400">2 yrs 3 mos</p>
+    </div>
+
+    <div class="flex gap-4 overflow-x-scroll">
+      <JobItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
+        <img slot="logo" src={storaenso} alt="Stora Enso" class="w-full h-full object-contain object-center" />
+      </JobItem>
+
+      <JobItem title="Experienced Service Specialist" subtitle="Stora Enso &middot; 10 mos">
+        <img slot="logo" src={storaenso} alt="Stora Enso" class="w-full h-full object-contain object-center" />
+      </JobItem>
+
+      <JobItem title="Management" subtitle="MSSc &middot; Tallinn University of Technology">
+        <img slot="logo" src={taltech} alt="TalTech" class="w-full h-full object-contain object-center" />
+      </JobItem>
+    </div>  
+  </header>
+</article>
+
+<article class="border-t border-gray-200 dark:border-gray-700 p-8">
+  <header>
+    <div class="mb-4 flex justify-between">
+      <h3 class="font-medium">Development</h3>
+      <p class="text-sm text-gray-600 dark:text-gray-400">6 yrs 2 mos</p>
+    </div>
+
+    <div class="flex gap-4 overflow-x-scroll">
+      <JobItem title="Full-Stack Developer" subtitle="OK Interactive (OKIA) &middot; 10 mos">
+        <OKIAIcon slot="logo" />
+      </JobItem>
+
+      <JobItem title="Front-End Developer" subtitle="OK Interactive (OKIA) &middot; 2 mos">
+        <OKIAIcon slot="logo" />
+      </JobItem>
+
+      <JobItem title="Web Developer" subtitle="Web Systems &middot; 8 mos">
+        <WebSystemsIcon slot="logo" />
+      </JobItem>
+
+      <JobItem title="Computer Systems & Engineering" subtitle="BSc(Eng) &middot; Tallinn University of Technology">
+        <img slot="logo" src={taltech} alt="TalTech" class="w-full h-full object-contain object-center" />
+      </JobItem>
+
+      <JobItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />
+    </div>  
+  </header>
+</article>  
+
+<article class="border-t border-gray-200 dark:border-gray-700 p-8">
+  <header>
+    <div class="mb-4 flex justify-between">
+      <h3 class="font-medium">Management</h3>
+      <p class="text-sm text-gray-600 dark:text-gray-400">5 yrs 9 mos</p>
+    </div>
+
+    <div class="flex gap-4 overflow-x-scroll">
+      <JobItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
+        <img slot="logo" src={storaenso} alt="Stora Enso" class="w-full h-full object-contain object-center" />
+      </JobItem>
+
+      <JobItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />
+
+      <JobItem title="Management" subtitle="MSSc &middot; Tallinn University of Technology">
+        <img slot="logo" src={taltech} alt="TalTech" class="w-full h-full object-contain object-center" />
+      </JobItem>
+    </div>  
+  </header>
+</article>

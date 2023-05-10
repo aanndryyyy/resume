@@ -3,14 +3,15 @@
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/http-server:1": {}
 	},
-	"portsAttributes": {
-		"8080": {
-			"label": "Website",
-			"onAutoForward": "notify"
+	"postCreateCommand": "npm install",
+	"postAttachCommand": "npm run dev",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bradlc.vscode-tailwindcss",
+				"austenc.tailwind-docs",
+				"svelte.svelte-vscode"
+			]
 		}
-	},
-	"postAttachCommand": {
-		"styles": "npm run start",
-		"server": "http-server"
 	}
 }

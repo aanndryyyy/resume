@@ -26,7 +26,7 @@
     </label>
   </div>
 
-  <div class="flex flex-col pt-0" class:p-8="{experience}" class:gap-8="{experience}">
+  <div class="flex flex-col pt-0">
 
     {#if experience}
       <ExperienceTraditional />

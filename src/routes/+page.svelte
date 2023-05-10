@@ -1,5 +1,9 @@
 <script lang="ts">
-  import type { ComponentType } from 'svelte';
+  import { onMount, type ComponentType } from 'svelte';
+  import { page } from '$app/stores';
+
+  let company: string;
+  let companyComponent: ComponentType;
   
   import HeaderBlock from '$lib/Components/Blocks/Header.svelte';
   import InformationBlock from '$lib/Components/Blocks/Information/Information.svelte';
@@ -11,16 +15,16 @@
 	import EducationBlock from '$lib/Components/Blocks/Education.svelte';
 	import LookingForBlock from '$lib/Components/Blocks/LookingFor.svelte';
 
-	import Wise from '$lib/Components/Blocks/Company/Wise.svelte';
-  
-  import { page } from '$app/stores'
-  const company: string = $page.url.searchParams.get('company') || '';
-  let companyComponent: ComponentType;
+	import Wise from '$lib/Components/Blocks/Personalisation/Wise.svelte';
 
-  switch (company) {
-    case 'Wise':
-      companyComponent = Wise;
-  }
+  onMount(async () => {
+    company = $page.url.searchParams.get('company') || '';
+     
+    switch (company) {
+      case 'Wise':
+        companyComponent = Wise;
+    }
+	});
 </script>
     
 <div class="flex flex-col gap-8">

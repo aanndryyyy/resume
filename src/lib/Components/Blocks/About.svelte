@@ -3,6 +3,8 @@
 
   import LinkedInIcon from '$lib/Components/Icons/LinkedIn.svelte';
   import GitHubIcon from '$lib/Components/Icons/GitHub.svelte';
+
+  import { base } from '$app/paths';
 </script>
 
 <Card>
@@ -15,12 +17,12 @@
 
     <ul class="flex gap-4">
       <li>
-        <a href="#0" class="social-link-hover">
+        <a href="{base}/" class="social-link-hover">
           <LinkedInIcon />
         </a>
       </li>
       <li>
-        <a href="#0" class="social-link-hover">
+        <a href="{base}/" class="social-link-hover">
           <GitHubIcon />
         </a>
       </li>

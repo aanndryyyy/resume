@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+  import type { ComponentType } from 'svelte';
+  
   import HeaderBlock from '$lib/Components/Blocks/Header.svelte';
   import InformationBlock from '$lib/Components/Blocks/Information/Information.svelte';
   import SkillsBlock from '$lib/Components/Blocks/Skills.svelte';
@@ -8,6 +10,17 @@
 	import ProjectsBlock from '$lib/Components/Blocks/Projects.svelte';
 	import EducationBlock from '$lib/Components/Blocks/Education.svelte';
 	import LookingForBlock from '$lib/Components/Blocks/LookingFor.svelte';
+
+	import Wise from '$lib/Components/Blocks/Company/Wise.svelte';
+  
+  import { page } from '$app/stores'
+  const company: string = $page.url.searchParams.get('company') || '';
+  let companyComponent: ComponentType;
+
+  switch (company) {
+    case 'Wise':
+      companyComponent = Wise;
+  }
 </script>
     
 <div class="flex flex-col gap-8">
@@ -17,6 +30,11 @@
 </div>
 
 <div class="flex flex-col gap-8 lg:col-span-2">
+
+  {#if company}
+    <svelte:component this={ companyComponent } />
+  {/if}
+
   <AboutBlock />
   <ExperienceBlock />
   <AchievementsBlock />

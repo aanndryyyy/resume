@@ -42,7 +42,10 @@
 <div class="flex flex-col gap-8">
   <HeaderBlock />
   <InformationBlock />
-  <LookingForBlock />
+
+  {#if !company}
+    <LookingForBlock />
+  {/if}
 </div>
 
 <div class="flex flex-col gap-8 lg:col-span-2">

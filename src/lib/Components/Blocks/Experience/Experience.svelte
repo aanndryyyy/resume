@@ -1,6 +1,6 @@
 <script>
-  import ExperienceNew from './New/NewExperience.svelte';
-	import ExperienceTraditional from './Traditional/ExperienceTraditional.svelte';
+  import NewExperienceItems from './New/NewExperienceItems.svelte';
+	import TraditionalExperienceItems from './Traditional/TraditionalExperienceItems.svelte';
 
 	let experience = false;
 </script>
@@ -29,9 +29,9 @@
   <div class="flex flex-col pt-0">
 
     {#if experience}
-      <ExperienceTraditional />
+      <TraditionalExperienceItems />
     {:else}
-      <ExperienceNew />
+      <NewExperienceItems />
     {/if}
     
   </div>

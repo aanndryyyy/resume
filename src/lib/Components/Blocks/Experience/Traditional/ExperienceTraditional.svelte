@@ -4,6 +4,7 @@
   
   import OKIAIcon from '$lib/Components/Icons/OKIA.svelte';
   import WebSystemsIcon from '$lib/Components/Icons/WebSystems.svelte';
+  import UusKorterIcon from '$lib/Components/Icons/UusKorter.svelte';
   import storaenso from '$lib/assets/storaenso.png';
   import freelance from '$lib/assets/freelance.png';
 </script>
@@ -30,6 +31,17 @@
 
   <TraditionalExperienceItem title="Full-Stack Developer" subtitle="Sep 2019 &mdash; Apr 2020 &middot; 10 mos" />
   <TraditionalExperienceItem title="Front-End Developer" subtitle="Jul 2019 &mdash; Aug 2019 &middot; 2 mos" />
+</TraditionalExperience>
+
+<TraditionalExperience
+  title="UusKorter"
+  subtitle="Tallinn &middot; 3 yrs 3 mos"
+  occupancy="Contract"
+>
+  <UusKorterIcon slot="logo" />
+
+  <TraditionalExperienceItem title="Chief Operating Officer" subtitle="Mar 2020 &mdash; Present &middot; 3 yrs 3 mos" />
+  <TraditionalExperienceItem title="Developer" subtitle="Mar 2020 &mdash; Present &middot; 3 yrs 3 mos" />
 </TraditionalExperience>
 
 <TraditionalExperience

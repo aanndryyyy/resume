@@ -40,11 +40,7 @@
     </div>
 
     <div class="flex gap-4 overflow-x-scroll">
-      <ExperienceItem title="Full-Stack Developer" subtitle="OK Interactive (OKIA) &middot; 10 mos">
-        <OKIAIcon slot="logo" />
-      </ExperienceItem>
-
-      <ExperienceItem title="Front-End Developer" subtitle="OK Interactive (OKIA) &middot; 2 mos">
+      <ExperienceItem title="Full-Stack Web Developer" subtitle="OK Interactive (OKIA) &middot; 1 yr">
         <OKIAIcon slot="logo" />
       </ExperienceItem>
 

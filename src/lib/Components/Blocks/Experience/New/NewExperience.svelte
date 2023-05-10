@@ -1,6 +1,7 @@
 <script>
   import OKIAIcon from '$lib/Components/Icons/OKIA.svelte';
   import WebSystemsIcon from '$lib/Components/Icons/WebSystems.svelte';
+  import UusKorterIcon from '$lib/Components/Icons/UusKorter.svelte';
   import storaenso from '$lib/assets/storaenso.png';
   import taltech from '$lib/assets/taltech.png';
 	
@@ -70,6 +71,10 @@
     <div class="flex gap-4 overflow-x-scroll">
       <ExperienceItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
         <img slot="logo" src={storaenso} alt="Stora Enso" class="w-full h-full object-contain object-center" />
+      </ExperienceItem>
+
+      <ExperienceItem title="COO & Developer" subtitle="UusKorter &middot; 3 yrs 3 mos">
+        <UusKorterIcon slot="logo" />
       </ExperienceItem>
 
       <ExperienceItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />

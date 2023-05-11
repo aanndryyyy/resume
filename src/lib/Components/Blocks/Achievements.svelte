@@ -13,7 +13,7 @@
 <Card>
   <h2 class="text-lg font-semibold mb-8">Achievements</h2>
 
-  <div class="flex justify-around mb-8">
+  <div class="flex justify-between mb-8">
     <button on:mouseenter={() => activeTab='storaenso'} class="w-24 h-24 p-4 rounded-lg hover:bg-gray-100" class:bg-gray-100={activeTab=='storaenso'}>
       <img src={storaenso} alt="Stora Enso" class="w-full h-full object-contain object-center" />
     </button>

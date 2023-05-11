@@ -1,0 +1,1 @@
+import"./index.60b7fe90.js";import{s as e}from"./singletons.8d3367df.js";const r=()=>{const s=e;return{page:{subscribe:s.page.subscribe},navigating:{subscribe:s.navigating.subscribe},updated:s.updated}},b={subscribe(s){return r().page.subscribe(s)}};export{b as p};

@@ -3,7 +3,7 @@
 	import Item from './Item.svelte';
 </script>
 
-<Card>
+<Card class={$$props.class}>
 	<h2 class="mb-8 text-lg font-semibold">Information</h2>
 
 	<div class="space-y-4">

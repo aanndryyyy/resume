@@ -4,7 +4,9 @@
 	import taltech from '$lib/assets/taltech.png';
 </script>
 
-<div class="overflow-hidden rounded-xl bg-white shadow dark:bg-gray-950 dark:shadow-2xl">
+<div
+	class={`overflow-hidden rounded-xl bg-white shadow dark:bg-gray-950 dark:shadow-2xl ${$$props.class}`}
+>
 	<h2 class="p-8 text-lg font-semibold">Education</h2>
 
 	<div class="flex flex-col pt-0">

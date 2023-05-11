@@ -7,7 +7,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<Card>
+<Card class={$$props.class}>
 	<h2 class="mb-8 text-lg font-semibold">About me</h2>
 
 	<p class="mb-8 text-gray-600 dark:text-gray-400">

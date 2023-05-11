@@ -5,7 +5,9 @@
 	let experience = false;
 </script>
 
-<div class="overflow-hidden rounded-xl bg-white shadow dark:bg-gray-950 dark:shadow-2xl">
+<div
+	class={`overflow-hidden rounded-xl bg-white shadow dark:bg-gray-950 dark:shadow-2xl ${$$props.class}`}
+>
 	<div class="flex items-center justify-between p-8">
 		<h2 class="text-lg font-semibold">
 			{#if experience}

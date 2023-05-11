@@ -2,7 +2,7 @@
 	import Card from '$lib/Components/Card.svelte';
 </script>
 
-<Card>
+<Card class={$$props.class}>
 	<h2 class="mb-8 text-lg font-semibold">Looking For</h2>
 
 	<p class="text-gray-600 dark:text-gray-400">

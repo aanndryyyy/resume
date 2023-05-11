@@ -10,7 +10,7 @@
 	let activeTab = 'storaenso';
 </script>
 
-<Card>
+<Card class={$$props.class}>
 	<h2 class="mb-8 text-lg font-semibold">Achievements</h2>
 
 	<div class="mb-8 flex justify-between">

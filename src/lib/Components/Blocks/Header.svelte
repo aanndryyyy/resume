@@ -1,20 +1,35 @@
 <script>
+	import me from '$lib/assets/me.jpeg';
 	import cover from '$lib/assets/cover.jpg';
 
 	import { base } from '$app/paths';
 </script>
 
-<header class="overflow-hidden rounded-xl bg-white shadow dark:bg-black">
-	<div class="h-32 bg-cover" style="background-image: url({cover});" />
+<header
+	class={`relative overflow-hidden rounded-xl bg-white shadow dark:bg-black ${$$props.class}`}
+>
+	<div
+		class="bottom-0 left-0 top-0 bg-[url('$lib/assets/cover.jpg')] bg-cover max-lg:absolute max-lg:w-16 lg:block lg:h-32"
+	/>
 
-	<div class="relative p-8 pt-14">
-		<h1 class="mb-1.5 text-lg font-semibold">Andry Pedak</h1>
-		<div class="mb-7 text-sm text-gray-600 dark:text-gray-400">
-			Hands-On <span class="font-medium">Technical Lead</span>
+	<div class="relative p-4 max-lg:pl-4 lg:block lg:p-8 lg:pt-20">
+		<div class="flex items-center gap-4 sm:gap-8">
+			<img
+				class="h-16 w-16 rounded border-2 border-white shadow-xl sm:h-24 sm:w-24 lg:absolute lg:-top-10 lg:shadow-md"
+				src={me}
+				alt="Andry Pedak"
+			/>
+
+			<h1 class="text-lg font-semibold">
+				Andry Pedak
+				<small class="block text-sm text-gray-600 dark:text-gray-400"
+					>Hands-On <span class="font-medium">Technical Lead</span></small
+				>
+			</h1>
 		</div>
 
 		<a
-			class="flex h-12 items-center justify-center gap-2 rounded-md bg-blue-600 text-center text-white"
+			class="mt-4 flex h-12 items-center justify-center gap-2 rounded-md bg-blue-600 text-center text-white max-lg:hidden"
 			href="{base}/"
 		>
 			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"

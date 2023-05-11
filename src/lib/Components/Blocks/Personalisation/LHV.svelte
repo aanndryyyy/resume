@@ -1,5 +1,5 @@
 <div
-	class="rounded-xl bg-[url('$lib/assets/lhv-bg.svg')] bg-cover bg-center bg-no-repeat p-8 shadow dark:bg-gray-950 dark:bg-none dark:shadow-2xl"
+	class={`rounded-xl bg-[url('$lib/assets/lhv-bg.svg')] bg-cover bg-center bg-no-repeat p-8 shadow dark:bg-gray-950 dark:bg-none dark:shadow-2xl ${$$props.class}`}
 >
 	<h2 class="mb-8 text-lg font-semibold">Hello LHV 👋🏼</h2>
 	<p class="text-gray-600 dark:text-gray-400">

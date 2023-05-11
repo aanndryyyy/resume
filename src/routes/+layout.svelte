@@ -1,7 +1,7 @@
 <script>
-  import "../app.css";
+	import '../app.css';
 </script>
 
-<main class="max-w-6xl mx-auto grid gap-8 lg:grid-cols-3 mt-32 mb-64">
-  <slot />
+<main class="mx-auto mb-64 mt-32 max-w-screen-lg lg:grid lg:grid-cols-3 lg:gap-8">
+	<slot />
 </main>

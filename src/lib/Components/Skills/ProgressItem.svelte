@@ -2,9 +2,9 @@
 	export let width: number;
 </script>
 
-<div class="flex gap-4 items-center justify-between">
-  <h3><slot /></h3>
-  <div class="w-40 bg-blue-100 rounded-full h-2.5">
-    <div class="bg-blue-500 h-2.5 rounded-full" style="width: {width}%"></div>
-  </div>
+<div class="flex items-center justify-between gap-4">
+	<h3><slot /></h3>
+	<div class="h-2.5 w-40 rounded-full bg-blue-100">
+		<div class="h-2.5 rounded-full bg-blue-500" style="width: {width}%" />
+	</div>
 </div>

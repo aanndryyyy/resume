@@ -1,4 +1,10 @@
-<svg height="100%" viewBox="0 0 92 105" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
+<svg
+	height="100%"
+	viewBox="0 0 92 105"
+	fill="none"
+	xmlns="http://www.w3.org/2000/svg"
+	class="mx-auto"
+>
 	<path
 		fill-rule="evenodd"
 		clip-rule="evenodd"

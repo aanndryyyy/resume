@@ -10,7 +10,8 @@
 			"extensions": [
 				"bradlc.vscode-tailwindcss",
 				"austenc.tailwind-docs",
-				"svelte.svelte-vscode"
+				"svelte.svelte-vscode",
+				"esbenp.prettier-vscode"
 			]
 		}
 	}

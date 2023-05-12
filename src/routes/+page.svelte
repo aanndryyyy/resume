@@ -54,7 +54,9 @@
 			<svelte:component this={companyComponent} class="lg:col-span-2 lg:col-start-2" />
 		{/if}
 
-		<InformationBlock class="lg:col-start-1 lg:col-end-1 lg:row-start-3" />
+		{#if innerWidth > 1024}
+			<InformationBlock class="lg:col-start-1 lg:col-end-1 lg:row-start-3" />
+		{/if}
 
 		{#if !company && innerWidth > 1024}
 			<LookingForBlock class="lg:col-start-1 lg:col-end-1" />
@@ -69,6 +71,10 @@
 		<AboutBlock class="lg:col-span-2 lg:col-start-2 lg:row-span-2" />
 
 		<ExperienceBlock class="lg:col-span-2 lg:col-start-2 lg:row-span-3" />
+
+		{#if innerWidth <= 1024}
+			<InformationBlock class="lg:col-start-1 lg:col-end-1 lg:row-start-3" />
+		{/if}
 
 		{#if !company && innerWidth <= 1024}
 			<LookingForBlock class="lg:col-start-1 lg:col-end-1" />

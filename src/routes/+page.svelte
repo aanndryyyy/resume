@@ -45,7 +45,7 @@
 <svelte:window bind:innerWidth />
 
 <main
-	class="m-2 max-w-screen-lg space-y-4 sm:m-6 sm:space-y-6 md:m-8 md:space-y-8 lg:mx-auto lg:mb-64 lg:mt-32 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0"
+	class="m-2 max-w-screen-lg space-y-2 sm:m-6 sm:space-y-4 md:m-8 md:space-y-8 lg:mx-auto lg:mb-64 lg:mt-32 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0"
 >
 	<div class="flex flex-col gap-2 sm:gap-6 md:gap-8">
 		<HeaderBlock class="lg:row-span-2" />

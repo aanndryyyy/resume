@@ -36,27 +36,46 @@
 				break;
 		}
 	});
+
+	let innerWidth: number;
+
+	$: console.log(innerWidth);
 </script>
 
+<svelte:window bind:innerWidth />
+
 <main
-	class="m-4 flex max-w-screen-lg flex-col gap-4 sm:m-6 sm:gap-6 md:m-8 md:gap-8 lg:mx-auto lg:mb-64 lg:mt-32 lg:grid lg:grid-cols-3"
+	class="m-2 max-w-screen-lg space-y-4 sm:m-6 sm:space-y-6 md:m-8 md:space-y-8 lg:mx-auto lg:mb-64 lg:mt-32 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0"
 >
-	<HeaderBlock class="lg:self-start" />
+	<div class="flex flex-col gap-2 sm:gap-6 md:gap-8">
+		<HeaderBlock class="lg:row-span-2" />
 
-	{#if company}
-		<svelte:component this={companyComponent} class="lg:col-span-2 lg:col-start-2 lg:self-start" />
-	{/if}
+		{#if company && innerWidth <= 1024}
+			<svelte:component this={companyComponent} class="lg:col-span-2 lg:col-start-2" />
+		{/if}
 
-	<AboutBlock class="lg:col-span-2 lg:self-start" />
-	<InformationBlock class="lg:col-start-1 lg:col-end-1 lg:self-start" />
+		<InformationBlock class="lg:col-start-1 lg:col-end-1 lg:row-start-3" />
 
-	<ExperienceBlock class="lg:order-4 lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:self-start" />
+		{#if !company && innerWidth > 1024}
+			<LookingForBlock class="lg:col-start-1 lg:col-end-1" />
+		{/if}
+	</div>
 
-	{#if !company}
-		<LookingForBlock class="lg:col-start-1 lg:col-end-1 lg:self-start" />
-	{/if}
+	<div class="flex flex-col gap-2 sm:gap-6 md:gap-8 lg:col-span-2">
+		{#if company && innerWidth > 1024}
+			<svelte:component this={companyComponent} class="lg:col-span-2 lg:col-start-2" />
+		{/if}
 
-	<AchievementsBlock class="lg:col-span-2 lg:col-start-2 lg:self-start" />
-	<ProjectsBlock class="lg:col-span-2 lg:col-start-2 lg:self-start" />
-	<EducationBlock class="lg:col-span-2 lg:col-start-2 lg:self-start" />
+		<AboutBlock class="lg:col-span-2 lg:col-start-2 lg:row-span-2" />
+
+		<ExperienceBlock class="lg:col-span-2 lg:col-start-2 lg:row-span-3" />
+
+		{#if !company && innerWidth <= 1024}
+			<LookingForBlock class="lg:col-start-1 lg:col-end-1" />
+		{/if}
+
+		<AchievementsBlock class="lg:col-span-2 lg:col-start-2" />
+		<ProjectsBlock class="lg:col-span-2 lg:col-start-2" />
+		<EducationBlock class="lg:col-span-2 lg:col-start-2" />
+	</div>
 </main>

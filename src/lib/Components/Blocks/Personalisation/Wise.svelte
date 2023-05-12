@@ -1,4 +1,4 @@
-<div class={`relative max-lg:mb-4 ${$$props.class}`}>
+<div class={`relative mb-4 ${$$props.class}`}>
 	<div
 		class="absolute inset-0 -bottom-4 -z-10 rounded-[2rem] bg-[url('$lib/assets/wise-bg.svg')] bg-cover bg-bottom bg-no-repeat shadow"
 	/>

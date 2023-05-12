@@ -16,35 +16,35 @@
 	<div class="mb-8 flex justify-between">
 		<button
 			on:mouseenter={() => (activeTab = 'storaenso')}
-			class="h-24 w-24 rounded-lg p-4 hover:bg-gray-100"
+			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
 			class:bg-gray-100={activeTab == 'storaenso'}
 		>
 			<img src={storaenso} alt="Stora Enso" class="h-full w-full object-contain object-center" />
 		</button>
 		<button
 			on:mouseenter={() => (activeTab = 'okia')}
-			class="h-24 w-24 rounded-lg p-4 hover:bg-gray-100"
+			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
 			class:bg-gray-100={activeTab == 'okia'}
 		>
 			<OKIAIcon />
 		</button>
 		<button
 			on:mouseenter={() => (activeTab = 'websys')}
-			class="h-24 w-24 rounded-lg p-4 hover:bg-gray-100"
+			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
 			class:bg-gray-100={activeTab == 'websys'}
 		>
 			<WebSystemsIcon />
 		</button>
 		<button
 			on:mouseenter={() => (activeTab = 'uk')}
-			class="h-24 w-24 rounded-lg p-4 hover:bg-gray-100"
+			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
 			class:bg-gray-100={activeTab == 'uk'}
 		>
 			<UusKorterIcon />
 		</button>
 		<button
 			on:mouseenter={() => (activeTab = 'you')}
-			class="h-24 w-24 rounded-lg p-4 hover:bg-gray-100"
+			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
 			class:bg-gray-100={activeTab == 'you'}
 		>
 			<UusKorterIcon />

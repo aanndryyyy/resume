@@ -43,11 +43,14 @@
 	});
 
 	let innerWidth: number;
-
-	$: console.log(innerWidth);
 </script>
 
 <svelte:window bind:innerWidth />
+
+<svelte:head>
+	<title>Andry Pedak &mdash; Technical Lead</title>
+	<meta name="description" content="I am a hands-on technical lead looking for new challanges." />
+</svelte:head>
 
 <main
 	class="m-2 max-w-screen-lg space-y-2 sm:m-6 sm:space-y-4 md:m-8 md:space-y-8 lg:mx-auto lg:mb-64 lg:mt-32 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0"

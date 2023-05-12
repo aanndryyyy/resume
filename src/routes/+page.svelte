@@ -18,21 +18,26 @@
 	import Wise from '$lib/Components/Blocks/Personalisation/Wise.svelte';
 	import LHV from '$lib/Components/Blocks/Personalisation/LHV.svelte';
 	import LinkedIn from '$lib/Components/Blocks/Personalisation/LinkedIn.svelte';
+	import DigitalRealty from '$lib/Components/Blocks/Personalisation/DigitalRealty.svelte';
 
 	onMount(async () => {
 		company = $page.url.searchParams.get('company') || '';
 
-		switch (company) {
-			case 'Wise':
+		switch (company.toLowerCase()) {
+			case 'wise':
 				companyComponent = Wise;
 				break;
 
-			case 'LHV':
+			case 'lhv':
 				companyComponent = LHV;
 				break;
 
-			case 'LinkedIn':
+			case 'linkedin':
 				companyComponent = LinkedIn;
+				break;
+
+			case 'digitalrealty':
+				companyComponent = DigitalRealty;
 				break;
 		}
 	});

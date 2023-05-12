@@ -4,7 +4,7 @@
 	export let occupancy: string;
 </script>
 
-<article class="flex gap-8 border-t border-gray-200 p-8 dark:border-gray-700">
+<article class="flex gap-6 border-t border-gray-200 p-6 dark:border-gray-700 md:gap-8 md:p-8">
 	<div class="flex h-14 w-14 shrink-0 items-center justify-center">
 		<slot name="logo" />
 	</div>

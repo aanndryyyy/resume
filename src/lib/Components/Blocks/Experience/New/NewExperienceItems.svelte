@@ -8,9 +8,9 @@
 	import ExperienceItem from './NewExperienceItem.svelte';
 </script>
 
-<article class="border-t border-gray-200 p-8 dark:border-gray-700">
-	<header>
-		<div class="mb-4 flex justify-between">
+<article class="border-t border-gray-200 p-6 dark:border-gray-700 md:p-8">
+	<header class="space-y-4 md:space-y-6">
+		<div class="flex justify-between">
 			<h3 class="font-medium">Management & Team Leadership</h3>
 			<p class="text-sm text-gray-600 dark:text-gray-400">2 yrs 3 mos</p>
 		</div>
@@ -50,9 +50,9 @@
 	</header>
 </article>
 
-<article class="border-t border-gray-200 p-8 dark:border-gray-700">
-	<header>
-		<div class="mb-4 flex justify-between">
+<article class="border-t border-gray-200 p-6 dark:border-gray-700 md:p-8">
+	<header class="space-y-4 md:space-y-6">
+		<div class="flex justify-between">
 			<h3 class="font-medium">Development & DevOps</h3>
 			<p class="text-sm text-gray-600 dark:text-gray-400">6 yrs 2 mos</p>
 		</div>
@@ -86,8 +86,8 @@
 	</header>
 </article>
 
-<article class="border-t border-gray-200 p-8 dark:border-gray-700">
-	<header>
+<article class="border-t border-gray-200 p-6 dark:border-gray-700 md:p-8">
+	<header class="space-y-4 md:space-y-6">
 		<div class="mb-4 flex justify-between">
 			<h3 class="font-medium">Digital Product & Service Management</h3>
 			<p class="text-sm text-gray-600 dark:text-gray-400">5 yrs 9 mos</p>

@@ -7,10 +7,10 @@
 <div
 	class={`overflow-hidden rounded-xl bg-white shadow dark:bg-gray-950 dark:shadow-2xl ${$$props.class}`}
 >
-	<h2 class="p-8 text-lg font-semibold">Education</h2>
+	<h2 class="p-6 text-lg font-semibold md:p-8">Education</h2>
 
 	<div class="flex flex-col pt-0">
-		<article class="flex gap-8 border-t border-gray-200 p-8 dark:border-gray-700">
+		<article class="flex gap-6 border-t border-gray-200 p-6 dark:border-gray-700 md:gap-8 md:p-8">
 			<div class="flex h-14 w-14 shrink-0 items-center justify-center">
 				<img src={taltech} alt="TalTech" class="h-full w-full object-contain object-center" />
 			</div>
@@ -37,7 +37,7 @@
 			</div>
 		</article>
 
-		<article class="flex gap-8 border-t border-gray-200 p-8 dark:border-gray-700">
+		<article class="flex gap-6 border-t border-gray-200 p-6 dark:border-gray-700 md:gap-8 md:p-8">
 			<div class="flex h-14 w-14 shrink-0 items-center justify-center">
 				<img src={taltech} alt="TalTech" class="h-full w-full object-contain object-center" />
 			</div>

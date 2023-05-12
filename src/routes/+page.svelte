@@ -39,27 +39,24 @@
 </script>
 
 <main
-	class="m-4 flex max-w-screen-lg flex-col gap-4 lg:mx-auto lg:mb-64 lg:mt-32 lg:grid lg:grid-cols-3 lg:gap-8"
+	class="m-4 flex max-w-screen-lg flex-col gap-4 sm:m-6 sm:gap-6 md:m-8 md:gap-8 lg:mx-auto lg:mb-64 lg:mt-32 lg:grid lg:grid-cols-3"
 >
-	<HeaderBlock class="order-1 lg:self-start" />
-	<InformationBlock class="order-4 lg:col-start-1 lg:col-end-1 lg:self-start" />
-
-	{#if !company}
-		<LookingForBlock class="order-5 lg:col-start-1 lg:col-end-1 lg:self-start" />
-	{/if}
+	<HeaderBlock class="lg:self-start" />
 
 	{#if company}
-		<svelte:component
-			this={companyComponent}
-			class="order-2 lg:col-span-2 lg:col-start-2 lg:self-start"
-		/>
+		<svelte:component this={companyComponent} class="lg:col-span-2 lg:col-start-2 lg:self-start" />
 	{/if}
 
-	<AboutBlock class="order-3 lg:col-span-2 lg:self-start" />
-	<ExperienceBlock
-		class="order-6 lg:order-4 lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:self-start"
-	/>
-	<AchievementsBlock class="order-7 lg:col-span-2 lg:col-start-2 lg:self-start" />
-	<ProjectsBlock class="order-8 lg:col-span-2 lg:col-start-2 lg:self-start" />
-	<EducationBlock class="order-9 lg:col-span-2 lg:col-start-2 lg:self-start" />
+	<AboutBlock class="lg:col-span-2 lg:self-start" />
+	<InformationBlock class="lg:col-start-1 lg:col-end-1 lg:self-start" />
+
+	<ExperienceBlock class="lg:order-4 lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:self-start" />
+
+	{#if !company}
+		<LookingForBlock class="lg:col-start-1 lg:col-end-1 lg:self-start" />
+	{/if}
+
+	<AchievementsBlock class="lg:col-span-2 lg:col-start-2 lg:self-start" />
+	<ProjectsBlock class="lg:col-span-2 lg:col-start-2 lg:self-start" />
+	<EducationBlock class="lg:col-span-2 lg:col-start-2 lg:self-start" />
 </main>

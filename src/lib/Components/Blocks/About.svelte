@@ -8,7 +8,7 @@
 </script>
 
 <Card class={$$props.class}>
-	<h2 class="mb-8 text-lg font-semibold">About me</h2>
+	<h2 class="mb-4 text-lg font-semibold lg:mb-8">About me</h2>
 
 	<p class="mb-8 text-gray-600 dark:text-gray-400">
 		Libero quas veritatis nulla distinctio fuga nihil temporibus et. Quia dicta sapiente qui porro

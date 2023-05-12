@@ -1,5 +1,5 @@
 <aside
-	class={`overflow-hidden rounded-xl bg-white p-4 shadow dark:bg-gray-950 dark:shadow-2xl lg:p-8 ${$$props.class}`}
+	class={`overflow-hidden rounded-xl bg-white bg-cover bg-center bg-no-repeat p-6 shadow dark:bg-gray-950 dark:bg-none dark:shadow-2xl md:p-8 ${$$props.class}`}
 >
 	<slot />
 </aside>

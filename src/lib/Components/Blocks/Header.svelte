@@ -12,10 +12,10 @@
 		class="bottom-0 left-0 top-0 bg-[url('$lib/assets/cover.jpg')] bg-cover max-lg:absolute max-lg:w-16 lg:block lg:h-32"
 	/>
 
-	<div class="relative p-4 max-lg:pl-4 lg:block lg:p-8 lg:pt-20">
+	<div class="relative p-6 max-lg:pl-6 lg:block lg:p-8 lg:pt-20">
 		<div class="flex items-center gap-4 sm:gap-8">
 			<img
-				class="h-16 w-16 rounded border-2 border-white shadow-xl sm:h-24 sm:w-24 lg:absolute lg:-top-10 lg:shadow-md"
+				class="h-20 w-20 rounded border-2 border-white shadow-xl sm:h-24 sm:w-24 lg:absolute lg:-top-10 lg:shadow-md"
 				src={me}
 				alt="Andry Pedak"
 			/>
@@ -23,7 +23,7 @@
 			<h1 class="text-lg font-semibold">
 				Andry Pedak
 				<small class="block text-sm text-gray-600 dark:text-gray-400"
-					>Hands-On <span class="font-medium">Technical Lead</span></small
+					>Hands-On <span class="font-medium max-[400px]:block">Technical Lead</span></small
 				>
 			</h1>
 		</div>

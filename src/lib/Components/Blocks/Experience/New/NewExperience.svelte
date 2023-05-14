@@ -7,7 +7,7 @@
 	<header class="space-y-4 md:space-y-6">
 		<div class="flex justify-between">
 			<h3 class="font-medium">{title}</h3>
-			<p class="text-sm text-gray-600 dark:text-gray-400">{subtitle}</p>
+			<p class="text-right text-sm text-gray-600 dark:text-gray-400">{subtitle}</p>
 		</div>
 
 		<div class="flex gap-4 overflow-x-scroll">

@@ -25,10 +25,10 @@
 		</h2>
 
 		<ul class="flex flex-wrap gap-2 whitespace-nowrap">
-			<li class="rounded-md border border-orange-400 bg-orange-50 px-3 py-1 text-sm">
+			<li class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm">
 				Skilled Worker Visa
 			</li>
-			<li class="rounded-md border border-orange-400 bg-orange-50 px-3 py-1 text-sm">
+			<li class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm">
 				Scale-up Visa
 			</li>
 		</ul>

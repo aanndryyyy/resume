@@ -13,7 +13,7 @@
 <Card class={$$props.class}>
 	<h2 class="mb-8 text-lg font-semibold">Achievements</h2>
 
-	<div class="mb-8 flex justify-between">
+	<div class="mb-8 flex justify-around">
 		<button
 			on:mouseenter={() => (activeTab = 'storaenso')}
 			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
@@ -29,13 +29,6 @@
 			<OKIAIcon />
 		</button>
 		<button
-			on:mouseenter={() => (activeTab = 'websys')}
-			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
-			class:bg-gray-100={activeTab == 'websys'}
-		>
-			<WebSystemsIcon />
-		</button>
-		<button
 			on:mouseenter={() => (activeTab = 'uk')}
 			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
 			class:bg-gray-100={activeTab == 'uk'}
@@ -43,42 +36,64 @@
 			<UusKorterIcon />
 		</button>
 		<button
-			on:mouseenter={() => (activeTab = 'you')}
+			on:mouseenter={() => (activeTab = 'websys')}
 			class="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 sm:h-16 sm:w-16 md:h-24 md:w-24 md:p-4"
-			class:bg-gray-100={activeTab == 'you'}
+			class:bg-gray-100={activeTab == 'websys'}
 		>
-			<UusKorterIcon />
+			<WebSystemsIcon />
 		</button>
 	</div>
 
-	<div class:hidden={activeTab != 'storaenso'}>
-		<p>
-			Libero quas veritatis nulla distinctio fuga nihil temporibus et. Quia dicta sapiente qui porro
-			molestiae nobis incidunt voluptatem. Et voluptas sunt nihil. At perferendis voluptatem dolores
-			nulla. Adipisci dolore non. Praesentium ipsa magnam ut quia explicabo voluptates.
-		</p>
+	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'storaenso'}>
+		<ol>
+			<li>
+				Saved over <b>€70k in development costs</b> by being hands-on with the legacy system to develop
+				in C, X++ and, Bash resulting in the resolution of bugs in hours instead of waiting days for
+				external development.
+			</li>
+			<li>
+				Improved user satisfaction survey results from <b>2.67 to 3.82 points</b> (max 5) in six months
+				by implementing common Forest IT division way of working to streamline service management across
+				all IT operations in Baltic and Nordic countries.
+			</li>
+		</ol>
 	</div>
 
-	<div class:hidden={activeTab != 'okia'}>
-		<p>
-			Quia dicta sapiente qui porro molestiae nobis incidunt voluptatem. Et voluptas sunt nihil. At
-			perferendis voluptatem dolores nulla. Adipisci dolore non. Praesentium ipsa magnam ut quia
-			explicabo voluptates.
-		</p>
+	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'okia'}>
+		<ol>
+			<li>
+				Developing a deep tehcnical understanding of the
+				<a href="https://wordpress.org/">WordPress</a> content management system to implement simple
+				optimisations and utilise existing, bloat-free plugins, therefor freeing up developer time.
+			</li>
+			<li>
+				Implement a new front-end solution for <a href="https://www.teliacompany.com/en">Telia</a> agent
+				call management platform. Quickly understanding the existing backend soltuion to implement a
+				modern front-end soltuion.
+			</li>
+		</ol>
 	</div>
 
-	<div class:hidden={activeTab != 'websys'}>
-		<p>
-			Et voluptas sunt nihil. At perferendis voluptatem dolores nulla. Adipisci dolore non.
-			Praesentium ipsa magnam ut quia explicabo voluptates.
-		</p>
+	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'uk'}>
+		<ol>
+			<li>
+				Successfully <a
+					href="https://www.figma.com/file/QiJrsWHZJwWSIkF8G7WKBp/UusKorter?type=design&node-id=1638%3A5543&t=dujzacOR0Ot9Uv9p-1"
+					>design</a
+				>
+				and <a href="https://uuskorter.ee/">develop</a> a real-estate website with the focus of SEO optimisation
+				and natural search exposure.
+			</li>
+		</ol>
 	</div>
 
-	<div class:hidden={activeTab != 'uk'}>
-		<p>Praesentium ipsa magnam ut quia explicabo voluptates.</p>
-	</div>
-
-	<div class:hidden={activeTab != 'you'}>
-		<p>Praesentium ipsa magnam ut quia explicabo voluptates.</p>
+	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'websys'}>
+		<ol>
+			<li>
+				Participated in a successful internship after which I continued as a full time employee
+				while studying in high-school. Establishing my passion for web software development and
+				design.
+			</li>
+		</ol>
 	</div>
 </Card>

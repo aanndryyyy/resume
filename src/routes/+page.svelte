@@ -23,9 +23,9 @@
 	import Lightyear from '$lib/Components/Blocks/Personalisation/Lightyear.svelte';
 
 	onMount(async () => {
-		company = $page.url.searchParams.get('company') || '';
+		company = ($page.url.searchParams.get('company') || '').toLowerCase();
 
-		switch (company.toLowerCase()) {
+		switch (company) {
 			case 'wise':
 				companyComponent = Wise;
 				break;
@@ -58,7 +58,12 @@
 <svelte:window bind:innerWidth />
 
 <svelte:head>
-	<title>Andry Pedak &mdash; Technical Lead</title>
+	{#if company == 'lightyear'}
+		<title>Andry Pedak & Lightyear &mdash; Backend Software Engineer</title>
+	{:else}
+		<title>Andry Pedak &mdash; Technical Lead</title>
+	{/if}
+
 	<meta name="description" content="I am a hands-on technical lead looking for new challanges." />
 </svelte:head>
 

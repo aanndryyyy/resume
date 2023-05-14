@@ -29,7 +29,7 @@
 		</div>
 
 		<a
-			class="mt-4 flex h-12 items-center justify-center gap-2 rounded-md bg-blue-600 text-center text-white max-lg:hidden"
+			class="mt-4 flex hidden h-12 items-center justify-center gap-2 rounded-md bg-blue-600 text-center text-white max-lg:hidden"
 			href="{base}/"
 		>
 			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"

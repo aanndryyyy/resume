@@ -4,6 +4,8 @@
 
 	let company: string;
 	let companyComponent: ComponentType;
+	let title: string = 'Andry Pedak — Technical Lead';
+	let innerWidth: number;
 
 	import HeaderBlock from '$lib/Components/Blocks/Header.svelte';
 	import InformationBlock from '$lib/Components/Blocks/Information/Information.svelte';
@@ -36,10 +38,12 @@
 
 			case 'lightyear':
 				companyComponent = Lightyear;
+				title = 'Andry Pedak & Lightyear — Backend Software Engineer';
 				break;
 
 			case 'lhv':
 				companyComponent = LHV;
+				title = 'Andry Pedak & LHV — DevOps Engineer';
 				break;
 
 			case 'linkedin':
@@ -51,19 +55,12 @@
 				break;
 		}
 	});
-
-	let innerWidth: number;
 </script>
 
 <svelte:window bind:innerWidth />
 
 <svelte:head>
-	{#if company == 'lightyear'}
-		<title>Andry Pedak & Lightyear &mdash; Backend Software Engineer</title>
-	{:else}
-		<title>Andry Pedak &mdash; Technical Lead</title>
-	{/if}
-
+	<title>{title}</title>
 	<meta name="description" content="I am a hands-on technical lead looking for new challanges." />
 </svelte:head>
 

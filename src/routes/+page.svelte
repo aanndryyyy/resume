@@ -19,6 +19,7 @@
 	import LHV from '$lib/Components/Blocks/Personalisation/LHV.svelte';
 	import LinkedIn from '$lib/Components/Blocks/Personalisation/LinkedIn.svelte';
 	import DigitalRealty from '$lib/Components/Blocks/Personalisation/DigitalRealty.svelte';
+	import Revolut from '$lib/Components/Blocks/Personalisation/Revolut.svelte';
 
 	onMount(async () => {
 		company = $page.url.searchParams.get('company') || '';
@@ -26,6 +27,10 @@
 		switch (company.toLowerCase()) {
 			case 'wise':
 				companyComponent = Wise;
+				break;
+
+			case 'revolut':
+				companyComponent = Revolut;
 				break;
 
 			case 'lhv':

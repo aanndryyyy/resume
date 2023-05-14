@@ -17,24 +17,29 @@
 		</p>
 	</div>
 
-	<hr />
+	<hr class="dark:border-gray-500" />
 
 	<div class="space-y-2">
 		<h2 class="flex items-center gap-1.5 font-medium">
-			Sponsorship required <Warning class="h-4 w-4 fill-none stroke-orange-400" />
+			Sponsorship required
+			<Warning class="h-4 w-4 fill-none stroke-orange-400 dark:stroke-orange-500" />
 		</h2>
 
 		<ul class="flex flex-wrap gap-2 whitespace-nowrap">
-			<li class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm">
+			<li
+				class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm text-orange-950 dark:border-orange-500 dark:bg-orange-950 dark:text-white"
+			>
 				Skilled Worker Visa
 			</li>
-			<li class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm">
+			<li
+				class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm text-orange-950 dark:border-orange-500 dark:bg-orange-950 dark:text-white"
+			>
 				Scale-up Visa
 			</li>
 		</ul>
 	</div>
 
-	<hr />
+	<hr class="dark:border-gray-500" />
 
 	<div class="space-y-2">
 		<h2 class="flex items-center gap-1.5 font-medium">Fitting teams</h2>
@@ -42,7 +47,7 @@
 		<ul class="flex flex-wrap gap-2 whitespace-nowrap">
 			<li>
 				<a
-					class="block rounded-md border border-gray-400 bg-gray-50 px-3 py-1 text-sm hover:border-blue-400 hover:bg-blue-50"
+					class="block rounded-md border border-gray-400 bg-gray-50 px-3 py-1 text-sm hover:border-blue-900 hover:bg-blue-700 hover:text-white dark:border-gray-600 dark:bg-gray-800"
 					href="https://www.revolut.com/careers/?team=Engineering+%26+Data"
 				>
 					Engineering & Data
@@ -50,7 +55,7 @@
 			</li>
 			<li>
 				<a
-					class="block rounded-md border border-gray-400 bg-gray-50 px-3 py-1 text-sm hover:border-blue-400 hover:bg-blue-50"
+					class="block rounded-md border border-gray-400 bg-gray-50 px-3 py-1 text-sm hover:border-blue-900 hover:bg-blue-700 hover:text-white dark:border-gray-600 dark:bg-gray-800"
 					href="https://www.revolut.com/careers/?team=Product+%26+Design"
 				>
 					Product & Design

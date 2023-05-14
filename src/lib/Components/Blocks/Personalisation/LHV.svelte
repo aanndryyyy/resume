@@ -41,16 +41,17 @@
 		</p>
 	</div>
 
-	<hr />
+	<hr class="dark:border-gray-500" />
 
 	<div class="space-y-2">
 		<h2 class="flex items-center gap-1.5 font-medium">
-			Sponsorship required <Warning class="h-4 w-4 fill-none stroke-orange-400" />
+			Sponsorship required
+			<Warning class="h-4 w-4 fill-none stroke-orange-400 dark:stroke-orange-500" />
 		</h2>
 
 		<ul class="flex flex-wrap gap-2 whitespace-nowrap">
 			<li
-				class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm text-orange-950"
+				class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm text-orange-950 dark:border-orange-500 dark:bg-orange-950 dark:text-white"
 			>
 				Skilled Worker Visa
 			</li>

@@ -20,6 +20,7 @@
 	import LinkedIn from '$lib/Components/Blocks/Personalisation/LinkedIn.svelte';
 	import DigitalRealty from '$lib/Components/Blocks/Personalisation/DigitalRealty.svelte';
 	import Revolut from '$lib/Components/Blocks/Personalisation/Revolut.svelte';
+	import Lightyear from '$lib/Components/Blocks/Personalisation/Lightyear.svelte';
 
 	onMount(async () => {
 		company = $page.url.searchParams.get('company') || '';
@@ -31,6 +32,10 @@
 
 			case 'revolut':
 				companyComponent = Revolut;
+				break;
+
+			case 'lightyear':
+				companyComponent = Lightyear;
 				break;
 
 			case 'lhv':

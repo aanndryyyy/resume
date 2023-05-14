@@ -1,8 +1,12 @@
 <script lang="ts">
+	import CalendarUserIcon from '$lib/Components/Icons/CalendarUserIcon.svelte';
+	import SuitcaseIcon from '$lib/Components/Icons/SuitcaseIcon.svelte';
+
 	export let current: boolean = false;
 
-	export let title: string;
-	export let subtitle: string;
+	export let title: string = 'IT Service Lead';
+	export let subtitle: string = 'Stroa Enso';
+	export let duration: string;
 </script>
 
 <div
@@ -18,7 +22,20 @@
 	{/if}
 
 	<div>
-		<h4 class="dark:text-white">{title}</h4>
-		<p class="text-sm text-gray-600 dark:text-gray-400">{subtitle}</p>
+		<h4 class="mb-0.5 dark:text-white">{title}</h4>
+
+		<div class="flex gap-4">
+			<div class="flex items-center gap-1">
+				<SuitcaseIcon class="h-3.5 w-3.5 fill-none stroke-gray-600" />
+				<p class="text-sm text-gray-600 dark:text-gray-400">{subtitle}</p>
+			</div>
+
+			{#if duration}
+				<div class="flex items-center gap-1">
+					<CalendarUserIcon class="h-3.5 w-3.5 fill-none stroke-gray-600" />
+					<p class="text-sm text-gray-600 dark:text-gray-400">{duration}</p>
+				</div>
+			{/if}
+		</div>
 	</div>
 </div>

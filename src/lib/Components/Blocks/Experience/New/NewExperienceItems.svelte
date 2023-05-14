@@ -10,7 +10,12 @@
 </script>
 
 <NewExperience title="Management & Team Leadership" subtitle="2 yrs 3 mos">
-	<ExperienceItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
+	<ExperienceItem
+		title="IT Service Lead"
+		subtitle="Stora Enso"
+		duration="1 yrs 5 mos"
+		current={true}
+	>
 		<img
 			slot="logo"
 			src={storaenso}
@@ -19,7 +24,7 @@
 		/>
 	</ExperienceItem>
 
-	<ExperienceItem title="Experienced Service Specialist" subtitle="Stora Enso &middot; 10 mos">
+	<ExperienceItem title="Experienced Service Specialist" subtitle="Stora Enso" duration="10 mos">
 		<img
 			slot="logo"
 			src={storaenso}
@@ -39,11 +44,11 @@
 </NewExperience>
 
 <NewExperience title="Development & DevOps" subtitle="6 yrs 2 mos">
-	<ExperienceItem title="Full-Stack Web Developer" subtitle="OK Interactive (OKIA) &middot; 1 yr">
+	<ExperienceItem title="Full-Stack Web Developer" subtitle="OK Interactive (OKIA)" duration="1yr">
 		<OKIAIcon slot="logo" />
 	</ExperienceItem>
 
-	<ExperienceItem title="Web Developer" subtitle="Web Systems &middot; 8 mos">
+	<ExperienceItem title="Web Developer" subtitle="Web Systems" duration="8 mos">
 		<WebSystemsIcon slot="logo" />
 	</ExperienceItem>
 
@@ -59,11 +64,16 @@
 		/>
 	</ExperienceItem>
 
-	<ExperienceItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />
+	<ExperienceItem title="Developer" subtitle="Freelance" duration="4 yrs 4 mos" />
 </NewExperience>
 
 <NewExperience title="Digital Product & Service Management" subtitle="5 yrs 9 mos">
-	<ExperienceItem title="IT Service Lead" subtitle="Stora Enso &middot; 1 yrs 5 mos" current={true}>
+	<ExperienceItem
+		title="IT Service Lead"
+		subtitle="Stora Enso"
+		duration="1 yrs 5 mos"
+		current={true}
+	>
 		<img
 			slot="logo"
 			src={storaenso}
@@ -72,11 +82,11 @@
 		/>
 	</ExperienceItem>
 
-	<ExperienceItem title="COO & Developer" subtitle="UusKorter &middot; 3 yrs 3 mos">
+	<ExperienceItem title="COO & Developer" subtitle="UusKorter" duration="3 yrs 3 mos">
 		<UusKorterIcon slot="logo" />
 	</ExperienceItem>
 
-	<ExperienceItem title="Developer" subtitle="Freelance &middot; 4 yrs 4 mos" />
+	<ExperienceItem title="Developer" subtitle="Freelance" duration="4 yrs 4 mos" />
 
 	<ExperienceItem title="Management" subtitle="MSSc &middot; Tallinn University of Technology">
 		<img

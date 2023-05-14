@@ -26,18 +26,18 @@
 			I am enthusiastic about the opportunity to work on developing and maintaining CI/CD pipelines
 			and infrastructure at LHV, and collaborating with the DevOps team to implement best practices.
 			My experience in cloud services, proficiency in low-level programming languages & scripting,
-			and familiarity with automation pipelines aligns well with your required skills. Additionally,
+			and familiarity with automation pipelines align well with your required skills. Additionally,
 			my knowledge of containerisation technologies, version control systems, and agile development
 			methodologies will enable me to quickly adapt to your team's requirements.
 		</p>
 		<p>
-			I am impressed by LHV commitment to transparency, agility, and continuous improvement. Your
+			I am impressed by LHV's commitment to transparency, agility, and continuous improvement. Your
 			values resonate with my approach to work, and I appreciate your focus on finding effective
 			solutions that create value for your customers and investors.
 		</p>
 		<p>
 			Thank you for considering my application. I look forward to the opportunity to discuss how my
-			skills and experience can contribute to LHV success.
+			skills and experience can contribute to LHV's success.
 		</p>
 	</div>
 

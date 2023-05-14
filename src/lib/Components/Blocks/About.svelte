@@ -24,18 +24,17 @@
 				>Computer Science</a
 			>
 			at TalTech University. Since then I have worked at several local tech companies utilising web technolgies
-			and for the past three years pursued an IT career in a
+			and for the past three years pursued an IT career in a global
 			<a
 				class="underline"
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://www.storaenso.com/en/">global renewable materials company</a
+				href="https://www.storaenso.com/en/">renewable materials company</a
 			>.
 		</p>
 		<p>
-			In my spare time, I enjoy playing tennis and experimenting with new technologies. I'm
-			constantly learning and trying to improve my skills, both in my professional and personal
-			life.
+			In my spare time, I enjoy playing tennis and exploring the landscape. I'm constantly learning
+			and trying to improve my skills, both in my professional and personal life.
 		</p>
 	</div>
 

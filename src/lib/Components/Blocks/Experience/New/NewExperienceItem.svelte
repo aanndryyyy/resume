@@ -26,13 +26,13 @@
 
 		<div class="flex gap-4">
 			<div class="flex items-center gap-1">
-				<SuitcaseIcon class="h-3.5 w-3.5 fill-none stroke-gray-600" />
+				<SuitcaseIcon class="h-3.5 w-3.5 fill-none stroke-gray-600 dark:stroke-gray-400" />
 				<p class="text-sm text-gray-600 dark:text-gray-400">{subtitle}</p>
 			</div>
 
 			{#if duration}
 				<div class="flex items-center gap-1">
-					<CalendarUserIcon class="h-3.5 w-3.5 fill-none stroke-gray-600" />
+					<CalendarUserIcon class="h-3.5 w-3.5 fill-none stroke-gray-600 dark:stroke-gray-400" />
 					<p class="text-sm text-gray-600 dark:text-gray-400">{duration}</p>
 				</div>
 			{/if}

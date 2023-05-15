@@ -53,7 +53,7 @@
 			<li
 				class="rounded-md border border-orange-400 bg-orange-50 px-2 py-1 text-sm text-orange-950 dark:border-orange-500 dark:bg-orange-950 dark:text-white"
 			>
-				Skilled Worker Visa
+				Skilled Worker visa
 			</li>
 		</ul>
 	</div>

@@ -47,14 +47,13 @@
 	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'storaenso'}>
 		<ol>
 			<li>
-				Saved over <b>€70k in development costs</b> by being hands-on with the legacy system to develop
-				in C, X++ and, Bash resulting in the resolution of bugs in hours instead of waiting days for
-				external development.
+				<b>Saved over €70k</b> in development costs by being hands-on with the ERP system to develop
+				in C, X++ and, Bash resulting in the resolution of bugs in hours.
 			</li>
 			<li>
 				Improved user satisfaction survey results from <b>2.67 to 3.82 points</b> (max 5) in six months
-				by implementing common Forest IT division way of working to streamline service management across
-				all IT operations in Baltic and Nordic countries.
+				by implementing common division way of working to streamline service management across all IT
+				operations in Baltic and Nordic countries.
 			</li>
 		</ol>
 	</div>

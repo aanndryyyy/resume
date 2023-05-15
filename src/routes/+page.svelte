@@ -23,6 +23,7 @@
 	import DigitalRealty from '$lib/Components/Blocks/Personalisation/DigitalRealty.svelte';
 	import Revolut from '$lib/Components/Blocks/Personalisation/Revolut.svelte';
 	import Lightyear from '$lib/Components/Blocks/Personalisation/Lightyear.svelte';
+	import RobertHalf from '$lib/Components/Blocks/Personalisation/RobertHalf.svelte';
 
 	onMount(async () => {
 		company = ($page.url.searchParams.get('company') || '').toLowerCase();
@@ -40,6 +41,10 @@
 			case 'lightyear':
 				companyComponent = Lightyear;
 				title = 'Andry Pedak & Lightyear — Backend Software Engineer';
+				break;
+
+			case 'roberthalf':
+				companyComponent = RobertHalf;
 				break;
 
 			case 'lhv':

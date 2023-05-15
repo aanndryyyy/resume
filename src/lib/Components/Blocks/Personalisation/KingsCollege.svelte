@@ -25,7 +25,7 @@
 		</p>
 		<p>
 			In terms of desirable criteria, I have experience working with large-scale open-source systems
-			like Moodle, and I am comfortable with server management, particularly in Linux-based
+			like Moodle, and I am comfortable with server management, particularly in various
 			environments. Furthermore, I have developed content authoring solutions, including design
 			systems, CMSes, and API-driven content delivery. I am also well-versed in utilizing Google
 			Analytics and managing custom tags in Google Tag Manager.

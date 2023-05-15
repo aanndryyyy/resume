@@ -7,9 +7,7 @@
 >
 	<h2 class="text-lg font-semibold">Hello LHV 👋🏼</h2>
 
-	<div
-		class="space-y-2 leading-relaxed text-gray-950 dark:text-gray-50 sm:space-y-4 sm:leading-loose"
-	>
+	<div class="prose dark:prose-invert">
 		<p>Dear hiring manager at LHV,</p>
 		<p>
 			I hope this web-resume finds you well. I am writing to express my interest in the

@@ -8,9 +8,7 @@
 <Card class={$$props.class}>
 	<h2 class="mb-4 text-lg font-semibold">About me</h2>
 
-	<div
-		class="space-y-2 leading-relaxed text-gray-950 dark:text-gray-400 sm:space-y-4 sm:leading-loose"
-	>
+	<div class="prose dark:prose-invert">
 		<p>
 			Hi, I'm Andry, a technical lead seeking to relocate to the United Kingdom. While in secondary
 			school, I developed an interest in programming and taught myself web development. Later, I

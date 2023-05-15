@@ -44,7 +44,7 @@
 		</button>
 	</div>
 
-	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'storaenso'}>
+	<div class="prose dark:prose-invert" class:hidden={activeTab != 'storaenso'}>
 		<ol>
 			<li>
 				<b>Saved over €70k</b> in development costs by being hands-on with the ERP system to develop
@@ -58,7 +58,7 @@
 		</ol>
 	</div>
 
-	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'okia'}>
+	<div class="prose dark:prose-invert" class:hidden={activeTab != 'okia'}>
 		<ol>
 			<li>
 				Developing a deep tehcnical understanding of the
@@ -73,7 +73,7 @@
 		</ol>
 	</div>
 
-	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'uk'}>
+	<div class="prose dark:prose-invert" class:hidden={activeTab != 'uk'}>
 		<ol>
 			<li>
 				Successfully <a
@@ -86,7 +86,7 @@
 		</ol>
 	</div>
 
-	<div class="prose prose-slate dark:prose-invert" class:hidden={activeTab != 'websys'}>
+	<div class="prose dark:prose-invert" class:hidden={activeTab != 'websys'}>
 		<ol>
 			<li>
 				Participated in a successful internship after which I continued as a full time employee

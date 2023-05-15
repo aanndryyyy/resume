@@ -8,7 +8,7 @@
 	<h2 class="text-lg font-semibold">Hello King's College 👋🏼</h2>
 
 	<div class="prose dark:prose-invert">
-		<p>Dear hiring manager,</p>
+		<p>Dear Juliana,</p>
 		<p>
 			I am writing to apply for the <a href="https://www.kcl.ac.uk/jobs/066269-web-developer"
 				>Web Developer</a

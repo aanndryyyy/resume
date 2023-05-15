@@ -17,34 +17,29 @@
 		>
 			<p>Dear hiring manager at Wise,</p>
 			<p>
-				I hope this web-resume finds you well. I am writing to express my interest in the
-				<a
+				I am writing to apply for the <a
 					class="underline"
 					target="_blank"
 					rel="noopener noreferrer"
-					href="https://boards.eu.greenhouse.io/lhvuk/jobs/4154377101">DevOps Engineer</a
-				>
-				position. I am impressed by LHV's commitment to transparency, agility, and continuous improvement.
-				Your values resonate with my approach to work, and I appreciate your focus on finding effective
-				solutions that create value for your fintech customers.
+					href="https://www.wise.jobs/role/4786651-engineering-lead-get-paid/">Engineering Lead</a
+				> position at Wise's Get Paid team. With expertise in leading a high-performing teams and a passion
+				for international finance, I am excited to contribute to Wise's mission of creating a convenient
+				and trustworthy platform for global payments.
 			</p>
 			<p>
-				I am enthusiastic about the opportunity to work on developing and maintaining CI/CD
-				infrastructure at LHV. My experience in cloud services, proficiency in various programming
-				languages, scripting, and familiarity with automation pipelines align well with your
-				required skills. Additionally, my knowledge of containerisation technologies, version
-				control systems, and agile methodologies will enable me to quickly adapt to your team's
-				requirements.
+				As an Engineering Lead, I will focus on enabling seamless payments using any method and
+				currency, while building scalable systems. With experience in Java, Spring framework, and
+				microservices architecture, I am equipped to design and deploy clean RESTful APIs. I am also
+				adept at working with SQL databases for optimization and transactional integrity.
 			</p>
 			<p>
-				While I have not worked in this role previously, I have spent considerable time
-				self-exploring the DevOps field and I believe that my set of technical skills, passion for
-				automation and collaboration, and eagerness to learn make me a great candidate for the
-				position.
+				My success in this role will involve driving engineering solutions, understanding customer
+				needs, and contributing to wider company goals. I strive to foster a collaborative team
+				environment that encourages open sharing of ideas.
 			</p>
 			<p>
-				Thank you for considering my application. I look forward to the opportunity to discuss how
-				my skills and experience can contribute to LHV's success.
+				I am eager to join Wise in building a world-class money transfer product that impacts
+				millions of customers. Thank you for considering my application.
 			</p>
 		</div>
 

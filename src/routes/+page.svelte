@@ -24,6 +24,7 @@
 	import Revolut from '$lib/Components/Blocks/Personalisation/Revolut.svelte';
 	import Lightyear from '$lib/Components/Blocks/Personalisation/Lightyear.svelte';
 	import RobertHalf from '$lib/Components/Blocks/Personalisation/RobertHalf.svelte';
+	import KingsCollege from '$lib/Components/Blocks/Personalisation/KingsCollege.svelte';
 
 	onMount(async () => {
 		company = ($page.url.searchParams.get('company') || '').toLowerCase();
@@ -41,6 +42,11 @@
 			case 'lightyear':
 				companyComponent = Lightyear;
 				title = 'Andry Pedak & Lightyear — Backend Software Engineer';
+				break;
+
+			case 'kcl':
+				companyComponent = KingsCollege;
+				title = 'Andry Pedak & King’s College London — Web Developer';
 				break;
 
 			case 'roberthalf':

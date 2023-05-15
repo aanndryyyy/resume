@@ -8,7 +8,7 @@
 	<h2 class="text-lg font-semibold">Hello LHV 👋🏼</h2>
 
 	<div
-		class="space-y-2 leading-relaxed text-gray-950 dark:text-gray-400 sm:space-y-4 sm:leading-loose"
+		class="space-y-2 leading-relaxed text-gray-950 dark:text-gray-50 sm:space-y-4 sm:leading-loose"
 	>
 		<p>Dear hiring manager at LHV,</p>
 		<p>

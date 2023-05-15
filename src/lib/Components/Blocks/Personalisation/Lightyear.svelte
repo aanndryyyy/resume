@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class={`after:content relative space-y-4 rounded-xl bg-[rgb(21,31,95)] bg-cover bg-center bg-no-repeat p-6 text-white shadow after:pointer-events-none after:absolute after:inset-0 after:bg-[radial-gradient(100%_100%_at_100%_0%,rgba(141,167,228,0.4)_0%,rgba(141,167,228,0)_100%)] dark:bg-gray-950 dark:bg-none dark:shadow-2xl sm:space-y-8 md:p-8 ${$$props.class}`}
+	class={`after:content relative space-y-4 rounded-xl bg-[rgb(21,31,95)] bg-cover bg-center bg-no-repeat p-6 text-white shadow after:pointer-events-none after:absolute after:inset-0 after:rounded-xl after:bg-[radial-gradient(100%_100%_at_100%_0%,rgba(141,167,228,0.4)_0%,rgba(141,167,228,0)_100%)] dark:shadow-2xl sm:space-y-8 md:p-8 ${$$props.class}`}
 >
 	<h2 class="text-lg font-semibold">Hello Lightyear 👋🏼</h2>
 
@@ -19,11 +19,13 @@
 			> position at Lightyear and be a part of the team building the main pillars of your trading platform.
 		</p>
 		<p>
-			As someone who is passionate about building great products, I am excited about the prospect of
-			working closely with designers, product managers, and fellow engineers to maintain and expand
-			the already rock-solid reliability and performance. While I may not have practical experience
-			working with Java & Spring, I am committed to taking end-to-end ownership of my work and
-			delivering high-quality, tested code.
+			I am looking forward to collaborating with designers, product managers, and fellow engineers
+			to maintain the reliability and performance of Lightyear. I am confident in front-end
+			development, I am eager to expand my skill set and tackle the challenges of back-end
+			technologies. Although I do not have hands-on experience with Java and Spring, I have a
+			experience with C programming and higher-level languages like PHP. With my enthusiasm for
+			learning and problem-solving, I am confident that I can quickly adapt to new technologies and
+			contribute to the success of any project.
 		</p>
 		<p>
 			I am excited about the opportunity to work with a talented and international team at

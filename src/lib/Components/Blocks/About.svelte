@@ -14,30 +14,31 @@
 		class="space-y-2 leading-relaxed text-gray-950 dark:text-gray-400 sm:space-y-4 sm:leading-loose"
 	>
 		<p>
-			Hi, I'm Andry! I am a technical lead looking to relocate to the UK. I self-taught programming
-			while in high-school and improved my knowledge with a
-			<a
+			Hi, I'm Andry, a technical lead looking to relocate to the United Kingdom. While in
+			high-school, I found an interest in programming and self-taught web development. Later I
+			decided to extend my knowledge by obtaining a formal degree in <a
 				class="underline"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/riistvara-arendus-ja-programmeerimine"
 				>Computer Science</a
 			>
-			degree at TalTech University. Since then I have worked at several local tech companies mastering
-			web technolgies and for the past three years pursued an IT career in a global
+			from TalTech University. Since then I have worked at several local tech companies where I mastered
+			multiple technologies and for the past three years I pursued an IT career from Service Specialist
+			to IT Service Lead in a global
 			<a
 				class="underline"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://www.storaenso.com/en/">renewable materials company</a
-			>. I'm working towards developing my leadership skills which led me to
+			>. A wish to further develop my leadership skills led me to
 			<a
 				class="underline"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://taltech.ee/sisseastuja/magistrioppe-erialad/juhtimine-ja-turundus"
 				>Management</a
-			> studies.
+			> studies at the same university (paused until 2024).
 		</p>
 		<p>
 			When I'm not coding, I enjoy hiking, taking film fotographs, and playing tennis. I believe

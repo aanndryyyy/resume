@@ -18,22 +18,33 @@
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://boards.eu.greenhouse.io/lhvuk/jobs/4154377101">DevOps Engineer</a
-			> position. While I have not worked in this role previously, I have spent considerable time self-exploring
-			the DevOps field and I believe that my technical skills, passion for automation and collaboration,
-			and eagerness to learn make me a great candidate for the position.
+			>
+			position. While I have not worked in this role previously, I have spent considerable time self-exploring
+			the DevOps field and I believe that my set of technical skills, passion for automation and collaboration,
+			and eagerness to learn make me a great candidate for the position. (<a
+				href="https://lhv.com/about/"
+				target="_blank"
+				rel="noopener noreferrer">no bullshit<sup>1</sup></a
+			>)
 		</p>
 		<p>
-			I am enthusiastic about the opportunity to work on developing and maintaining CI/CD pipelines
-			and infrastructure at LHV, and collaborating with the DevOps team to implement best practices.
-			My experience in cloud services, proficiency in low-level programming languages & scripting,
-			and familiarity with automation pipelines align well with your required skills. Additionally,
-			my knowledge of containerisation technologies, version control systems, and agile development
-			methodologies will enable me to quickly adapt to your team's requirements.
+			I am enthusiastic about the opportunity to work on developing and maintaining CI/CD
+			infrastructure at LHV. My experience in cloud services, proficiency in low-level programming
+			languages, scripting, and familiarity with automation pipelines align well with your required
+			skills. Additionally, my knowledge of containerisation technologies, version control systems,
+			and agile development methodologies will enable me to quickly adapt to your team's
+			requirements. (<a href="https://lhv.com/about/" target="_blank" rel="noopener noreferrer"
+				>agile<sup>2</sup></a
+			>)
 		</p>
 		<p>
 			I am impressed by LHV's commitment to transparency, agility, and continuous improvement. Your
 			values resonate with my approach to work, and I appreciate your focus on finding effective
-			solutions that create value for your customers and investors.
+			solutions that create value for your customers. (<a
+				href="https://lhv.com/about/"
+				target="_blank"
+				rel="noopener noreferrer">never satisfied<sup>3</sup></a
+			>)
 		</p>
 		<p>
 			Thank you for considering my application. I look forward to the opportunity to discuss how my

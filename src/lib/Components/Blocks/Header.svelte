@@ -1,6 +1,6 @@
 <script>
 	import me from '$lib/assets/me.jpeg';
-	import cover from '$lib/assets/cover.jpg';
+	import cover from '$lib/assets/cover.png';
 
 	import { base } from '$app/paths';
 </script>
@@ -9,7 +9,7 @@
 	class={`relative overflow-hidden rounded-xl bg-white shadow dark:bg-black ${$$props.class}`}
 >
 	<div
-		class="bottom-0 left-0 top-0 bg-[url('$lib/assets/cover.jpg')] bg-cover max-lg:absolute max-lg:w-16 lg:block lg:h-32"
+		class="bottom-0 left-0 top-0 bg-[url('$lib/assets/cover.png')] bg-cover max-lg:absolute max-lg:w-16 lg:block lg:h-32"
 	/>
 
 	<div class="relative p-6 max-lg:pl-6 lg:block lg:p-8 lg:pt-20">

@@ -15,7 +15,7 @@
 	>
 		<p>
 			Hi, I'm Andry! I am a technical lead looking to relocate to the UK. I self-taught programming
-			in high-school and improved my knowledge with
+			while in high-school and improved my knowledge with a
 			<a
 				class="underline"
 				target="_blank"
@@ -23,18 +23,26 @@
 				href="https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/riistvara-arendus-ja-programmeerimine"
 				>Computer Science</a
 			>
-			at TalTech University. Since then I have worked at several local tech companies utilising web technolgies
-			and for the past three years pursued an IT career in a global
+			degree at TalTech University. Since then I have worked at several local tech companies mastering
+			web technolgies and for the past three years pursued an IT career in a global
 			<a
 				class="underline"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://www.storaenso.com/en/">renewable materials company</a
-			>.
+			>. I'm working towards developing my leadership skills which led me to
+			<a
+				class="underline"
+				target="_blank"
+				rel="noopener noreferrer"
+				href="https://taltech.ee/sisseastuja/magistrioppe-erialad/juhtimine-ja-turundus"
+				>Management</a
+			> studies.
 		</p>
 		<p>
-			In my spare time, I enjoy playing tennis and exploring the landscape. I'm constantly learning
-			and trying to improve my skills, both in my professional and personal life.
+			When I'm not coding, I enjoy hiking, taking film fotographs, and playing tennis. I believe
+			that technology has the power to change the world and I find joy in breaking down complex
+			problems into simple technical solutions.
 		</p>
 	</div>
 

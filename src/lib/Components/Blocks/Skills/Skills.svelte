@@ -6,10 +6,10 @@
 <Card id="skills">
 	<h2 class="mb-8 text-lg font-semibold">Skills</h2>
 
-	<div class="space-y-8">
+	<div class="space-y-4">
 		<div class="space-y-2">
 			<h3>Programming</h3>
-			<ul class="flex gap-2">
+			<ul class="wrap flex gap-2">
 				<SkillItem content="C" />
 				<SkillItem content="PHP" />
 				<SkillItem content="X++" />
@@ -21,7 +21,7 @@
 
 		<div class="space-y-2">
 			<h3>Frameworks</h3>
-			<ul class="flex gap-2">
+			<ul class="wrap flex gap-2">
 				<SkillItem content="Svelte" />
 				<SkillItem content="Next.js" />
 			</ul>

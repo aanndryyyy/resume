@@ -1,6 +1,5 @@
 <script>
-	import me from '$lib/assets/me.jpeg';
-	import cover from '$lib/assets/cover.png';
+	import me from '$lib/assets/me.jpg';
 
 	import { base } from '$app/paths';
 </script>

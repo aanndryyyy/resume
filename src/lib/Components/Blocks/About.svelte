@@ -1,8 +1,5 @@
 <script>
 	import Card from '$lib/Components/Card.svelte';
-
-	import LinkedInIcon from '$lib/Components/Icons/LinkedIn.svelte';
-	import GitHubIcon from '$lib/Components/Icons/GitHub.svelte';
 </script>
 
 <Card class={$$props.class}>
@@ -41,34 +38,5 @@
 			believe that technology has the power to change the world, and I derive joy from breaking down
 			complex problems into simple technical solutions.
 		</p>
-	</div>
-
-	<hr class="my-4 sm:my-8" />
-
-	<div class="flex items-center justify-between">
-		<a href="mailto:andry@pedak.me">andry@pedak.me</a>
-
-		<ul class="flex gap-4">
-			<li>
-				<a
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://in.pedak.me"
-					class="social-link-hover"
-				>
-					<LinkedInIcon />
-				</a>
-			</li>
-			<li>
-				<a
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://github.com/aanndryyyy"
-					class="social-link-hover"
-				>
-					<GitHubIcon />
-				</a>
-			</li>
-		</ul>
 	</div>
 </Card>

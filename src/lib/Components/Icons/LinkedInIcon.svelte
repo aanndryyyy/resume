@@ -3,7 +3,7 @@
 	height="24"
 	viewBox="0 0 48 48"
 	xmlns="http://www.w3.org/2000/svg"
-	class="fill-black dark:fill-white"
+	class={$$props.class}
 >
 	<g clip-path="url(#clip0_17_68)">
 		<path

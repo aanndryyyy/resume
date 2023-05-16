@@ -9,13 +9,14 @@
 
 	import HeaderBlock from '$lib/Components/Blocks/Header.svelte';
 	import InformationBlock from '$lib/Components/Blocks/Information/Information.svelte';
-	import SkillsBlock from '$lib/Components/Blocks/Skills.svelte';
+	import SkillsBlock from '$lib/Components/Blocks/Skills/Skills.svelte';
 	import AboutBlock from '$lib/Components/Blocks/About.svelte';
 	import ExperienceBlock from '$lib/Components/Blocks/Experience/Experience.svelte';
 	import AchievementsBlock from '$lib/Components/Blocks/Achievements.svelte';
 	import ProjectsBlock from '$lib/Components/Blocks/Projects.svelte';
 	import EducationBlock from '$lib/Components/Blocks/Education.svelte';
 	import LookingForBlock from '$lib/Components/Blocks/LookingFor.svelte';
+	import ContactsBlock from '$lib/Components/Blocks/Contacts.svelte';
 
 	import Wise from '$lib/Components/Blocks/Personalisation/Wise.svelte';
 	import LHV from '$lib/Components/Blocks/Personalisation/LHV.svelte';
@@ -83,11 +84,19 @@
 		<HeaderBlock />
 
 		{#if company && innerWidth <= 1024}
+			<ContactsBlock />
+		{/if}
+
+		{#if company && innerWidth <= 1024}
 			<svelte:component this={companyComponent} />
 		{/if}
 
 		{#if innerWidth > 1024}
 			<InformationBlock />
+		{/if}
+
+		{#if company && innerWidth > 1024}
+			<ContactsBlock />
 		{/if}
 
 		{#if !company && innerWidth > 1024}
@@ -115,5 +124,6 @@
 		<AchievementsBlock />
 		<ProjectsBlock />
 		<EducationBlock />
+		<SkillsBlock />
 	</div>
 </main>

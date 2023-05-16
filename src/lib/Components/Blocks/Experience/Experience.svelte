@@ -2,7 +2,7 @@
 	import NewExperienceItems from './New/NewExperienceItems.svelte';
 	import TraditionalExperienceItems from './Traditional/TraditionalExperienceItems.svelte';
 
-	let experience = false;
+	let experience = true;
 </script>
 
 <div

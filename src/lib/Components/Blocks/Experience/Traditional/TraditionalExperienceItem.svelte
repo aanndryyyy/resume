@@ -23,7 +23,7 @@
 
 <style lang="postcss">
 	.item {
-		@apply min-w-[20rem] space-y-0.5 rounded p-4 pr-6 dark:bg-gray-900;
+		@apply min-w-[20rem] space-y-0.5 rounded px-6 py-4 dark:bg-gray-900;
 		@apply print:flex print:min-w-full print:justify-between print:space-y-0 print:bg-transparent print:p-0;
 	}
 </style>

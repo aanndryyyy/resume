@@ -3,9 +3,9 @@
 </script>
 
 <Card id="skills">
-	<h2 class="mb-8 text-lg font-semibold">Keywords</h2>
+	<h2 class="text-lg font-semibold">Keywords</h2>
 
-	<div class="space-y-4 sm:space-y-6">
+	<div class="mt-8 space-y-4 sm:space-y-6">
 		<div class="space-y-2">
 			<h3 class="font-medium">Programming</h3>
 			<ul class="items">

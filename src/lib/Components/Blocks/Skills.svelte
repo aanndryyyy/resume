@@ -1,6 +1,5 @@
 <script>
 	import Card from '$lib/Components/Card.svelte';
-	import SkillItem from './SkillItem.svelte';
 </script>
 
 <Card id="skills">

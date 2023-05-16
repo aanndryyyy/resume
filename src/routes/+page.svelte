@@ -9,7 +9,7 @@
 
 	import HeaderBlock from '$lib/Components/Blocks/Header.svelte';
 	import InformationBlock from '$lib/Components/Blocks/Information/Information.svelte';
-	import SkillsBlock from '$lib/Components/Blocks/Skills/Skills.svelte';
+	import SkillsBlock from '$lib/Components/Blocks/Skills.svelte';
 	import AboutBlock from '$lib/Components/Blocks/About.svelte';
 	import ExperienceBlock from '$lib/Components/Blocks/Experience/Experience.svelte';
 	import AchievementsBlock from '$lib/Components/Blocks/Achievements.svelte';

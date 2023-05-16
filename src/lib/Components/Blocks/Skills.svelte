@@ -23,6 +23,7 @@
 		<div class="space-y-2">
 			<h3 class="font-medium">Frameworks & CMS</h3>
 			<ul class="items">
+				<li>Node.js</li>
 				<li>Svelte</li>
 				<li>SvelteKit</li>
 				<li>Next.js</li>

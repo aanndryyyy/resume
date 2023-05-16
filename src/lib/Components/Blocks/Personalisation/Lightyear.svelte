@@ -22,9 +22,10 @@
 			to maintain the reliability and performance of Lightyear. I am confident in front-end
 			development, I am eager to expand my skill set and tackle the challenges of back-end
 			technologies. Although I do not have hands-on experience with Java and Spring, I have a
-			experience with <a href="#skills">C programming and higher-level languages like PHP</a>. With
-			my enthusiasm for learning and problem-solving, I am confident that I can quickly adapt to new
-			technologies and contribute to the success of any project.
+			experience with C programming and higher-level languages like PHP (see <a href="#skills"
+				>keywords</a
+			>). With my enthusiasm for learning and problem-solving, I am confident that I can quickly
+			adapt to new technologies and contribute to the success of any project.
 		</p>
 		<p>
 			I am excited about the opportunity to work with a talented and international team at

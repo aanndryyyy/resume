@@ -2,9 +2,7 @@
 	import Warning from '$lib/Components/Icons/Warning.svelte';
 </script>
 
-<div
-	class={`after:content relative space-y-4 rounded-xl bg-[rgb(21,31,95)] bg-cover bg-center bg-no-repeat p-6 text-white shadow after:pointer-events-none after:absolute after:inset-0 after:rounded-xl after:bg-[radial-gradient(100%_100%_at_100%_0%,rgba(141,167,228,0.4)_0%,rgba(141,167,228,0)_100%)] dark:shadow-2xl sm:space-y-8 md:p-8 ${$$props.class}`}
->
+<div class="lightyear">
 	<h2 class="text-lg font-semibold">Hello Lightyear 👋🏼</h2>
 
 	<div class="prose prose-p:text-white prose-a:text-gray-50">
@@ -51,3 +49,12 @@
 		</ul>
 	</div>
 </div>
+
+<style lang="postcss">
+	.lightyear {
+		@apply relative space-y-4 rounded-xl bg-[rgb(21,31,95)] bg-cover bg-center bg-no-repeat p-6 shadow sm:space-y-8 md:p-8;
+		@apply after:pointer-events-none after:absolute after:inset-0 after:rounded-xl after:bg-[radial-gradient(100%_100%_at_100%_0%,rgba(141,167,228,0.4)_0%,rgba(141,167,228,0)_100%)];
+		@apply dark:shadow-2xl;
+		@apply print:bg-transparent print:shadow-none print:after:bg-none print:after:content-none print:prose-p:text-black print:prose-a:text-gray-900;
+	}
+</style>

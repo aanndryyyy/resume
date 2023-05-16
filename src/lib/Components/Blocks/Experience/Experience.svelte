@@ -5,25 +5,19 @@
 	let experience = true;
 </script>
 
-<div
-	class={`overflow-hidden rounded-xl bg-white shadow dark:bg-gray-950 dark:shadow-2xl ${$$props.class}`}
->
+<section class="experience">
 	<div class="flex items-center justify-between p-6 md:p-8">
 		<h2 class="text-lg font-semibold">
 			Experience
 
 			{#if experience}
-				<small class="block font-normal leading-normal text-gray-600 dark:text-gray-400"
-					>Traditional CV style experience</small
-				>
+				<small class="experience-subtitle">Traditional CV style experience</small>
 			{:else}
-				<small class="block font-normal leading-normal text-gray-600 dark:text-gray-400"
-					>Grouped by skills to show enabling positions</small
-				>
+				<small class="experience-subtitle">Grouped by skills to show enabling positions</small>
 			{/if}
 		</h2>
 
-		<label class="relative inline-flex cursor-pointer items-center max-sm:pl-4">
+		<label class="relative inline-flex cursor-pointer items-center print:hidden max-sm:pl-4">
 			<input type="checkbox" class="peer sr-only" bind:checked={experience} />
 
 			<span class="mr-3 text-sm text-gray-900 dark:text-gray-300 max-sm:hidden">Traditional</span>
@@ -34,11 +28,21 @@
 		</label>
 	</div>
 
-	<div class="flex flex-col pt-0">
-		{#if experience}
-			<TraditionalExperienceItems />
-		{:else}
-			<NewExperienceItems />
-		{/if}
-	</div>
-</div>
+	{#if experience}
+		<TraditionalExperienceItems />
+	{:else}
+		<NewExperienceItems />
+	{/if}
+</section>
+
+<style lang="postcss">
+	.experience {
+		@apply overflow-hidden rounded-xl bg-white shadow dark:bg-gray-950 dark:shadow-2xl;
+		@apply print:break-before-page print:break-after-page print:shadow-none;
+	}
+
+	.experience-subtitle {
+		@apply block font-normal leading-normal text-gray-600 dark:text-gray-400;
+		@apply print:hidden;
+	}
+</style>

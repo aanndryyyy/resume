@@ -10,6 +10,6 @@
 	.card {
 		@apply overflow-hidden rounded-xl bg-white bg-cover bg-center bg-no-repeat p-6 shadow md:p-8;
 		@apply dark:bg-gray-950 dark:bg-none dark:shadow-2xl;
-		@apply print:shadow-none;
+		@apply print:bg-transparent print:shadow-none;
 	}
 </style>

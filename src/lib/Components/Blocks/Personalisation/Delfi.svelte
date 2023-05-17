@@ -11,13 +11,13 @@
 			> positsioonile.
 		</p>
 		<p>
-			Olen aastatid töötanud erinevate suurustega meeskondades ning praegusel ametikohal Stora Ensos
-			olen keskendunud suure pildi nägemisele ja arendustööde läbiviimisele. Minu loodud tehnilised
+			Olen töötanud erinevate suurustega meeskondades ning praegusel ametikohal Stora Ensos olen
+			keskendunud suure pildi nägemisele ja arendustööde läbiviimisele. Minu loodud tehnilised
 			lahendused on lihtsasti selgitatavad, sest mulle meeldib leida komplektsetele probleemidele
 			lihtsaid lahendusi.
 		</p>
 		<p>
-			Olen varasemalt katsetanud GraphQL lahendusi, kui ühesti suuremas projektis seda kasutanud ei
+			Olen varasemalt katsetanud GraphQL lahendusi, kui üheski suuremas projektis seda kasutanud ei
 			ole. Nuxt.js ja Vue-ga ei ole varasemalt kokku puutunud, kuid Node.js põhised tehnoloogijad ei
 			ole minu jaoks võõrad - <a href="#skills">vaata märksõnu</a>.
 		</p>

@@ -21,6 +21,7 @@
 	import Lightyear from '$lib/Components/Blocks/Personalisation/Lightyear.svelte';
 	import RobertHalf from '$lib/Components/Blocks/Personalisation/RobertHalf.svelte';
 	import KingsCollege from '$lib/Components/Blocks/Personalisation/KingsCollege.svelte';
+	import Delfi from '$lib/Components/Blocks/Personalisation/Delfi.svelte';
 	import postcss from 'postcss';
 
 	let company: string;
@@ -66,6 +67,10 @@
 
 			case 'digitalrealty':
 				companyComponent = DigitalRealty;
+				break;
+
+			case 'delfi':
+				companyComponent = Delfi;
 				break;
 		}
 	});

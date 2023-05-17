@@ -47,13 +47,13 @@
 	<div class="prose dark:prose-invert" class:hidden={activeTab != 'storaenso'}>
 		<ol>
 			<li>
-				<b>Saved over €70k</b> in development costs by being hands-on with the ERP system to develop
-				in C, X++ and, Bash resulting in the resolution of bugs in hours.
+				I <b>saved over €70k</b> in development costs by being hands-on with the ERP system, developing
+				in C, X++, and Bash, resulting in the resolution of bugs within hours.
 			</li>
 			<li>
-				Improved user satisfaction survey results from <b>2.67 to 3.82 points</b> (max 5) in six months
-				by implementing common division way of working to streamline service management across all IT
-				operations in Baltic and Nordic countries.
+				I improved user satisfaction survey results from <b>2.67 to 3.82 points</b> (out of a maximum
+				of 5) in six months by implementing a common division way of working to streamline service management
+				across all IT operations in Baltic and Nordic countries.
 			</li>
 		</ol>
 	</div>
@@ -61,14 +61,15 @@
 	<div class="prose dark:prose-invert" class:hidden={activeTab != 'okia'}>
 		<ol>
 			<li>
-				Developing a deep tehcnical understanding of the
+				Developing a deep technical understanding of the
 				<a href="https://wordpress.org/">WordPress</a> content management system to implement simple
-				optimisations and utilise existing, bloat-free plugins, therefor freeing up developer time.
+				optimizations and utilize existing, bloat-free plugins, thereby freeing up developer time.
 			</li>
 			<li>
-				Implement a new front-end solution for <a href="https://www.teliacompany.com/en">Telia</a> agent
-				call management platform. Quickly understanding the existing backend soltuion to implement a
-				modern front-end soltuion.
+				Implementing a new front-end solution for <a href="https://www.teliacompany.com/en"
+					>Telia's</a
+				> agent call management platform. Quickly understanding the existing backend solution to implement
+				a modern front-end solution.
 			</li>
 		</ol>
 	</div>
@@ -89,8 +90,8 @@
 	<div class="prose dark:prose-invert" class:hidden={activeTab != 'websys'}>
 		<ol>
 			<li>
-				Participated in a successful internship after which I continued as a full time employee
-				while studying in high-school. Establishing my passion for web software development and
+				I participated in a successful internship, after which I continued as a full-time employee
+				while studying in high school, establishing my passion for web software development and
 				design.
 			</li>
 		</ol>

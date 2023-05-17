@@ -9,14 +9,14 @@
 	<h2 class="mb-8 text-lg font-semibold">Contact Information</h2>
 
 	<div class="space-y-4">
-		<a href="mailto:andry@pedak.me" class="group flex items-center gap-4">
+		<a href="mailto:andry.pedak@gmail.com" class="group flex items-center gap-4">
 			<MailIcon
 				class="h-5 w-5 fill-none stroke-gray-900 group-hover:stroke-blue-700 dark:stroke-gray-200 dark:group-hover:stroke-blue-500"
 			/>
 			<div
 				class="text-gray-950 group-hover:text-blue-700 dark:text-gray-200 dark:group-hover:text-blue-500"
 			>
-				andry@pedak.me
+				andry.pedak@gmail.com
 			</div>
 		</a>
 

@@ -104,7 +104,7 @@
 		{/if}
 
 		{#if !company && innerWidth > 1024}
-			<LookingForBlock />
+			<!-- <LookingForBlock /> -->
 		{/if}
 	</div>
 

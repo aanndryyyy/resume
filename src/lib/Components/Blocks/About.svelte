@@ -7,7 +7,7 @@
 
 	<div class="prose dark:prose-invert">
 		<p>
-			Hi, I'm Andry, a technical lead seeking to relocate to the United Kingdom. While in secondary
+			Hi, I'm Andry, a technical lead seeking a new challenge in London, UK. While in secondary
 			school, I developed an interest in programming and taught myself web development. Later, I
 			decided to expand my knowledge by pursuing a formal degree in <a
 				class="underline"

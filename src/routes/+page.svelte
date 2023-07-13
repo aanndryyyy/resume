@@ -103,9 +103,9 @@
 			<ContactsBlock />
 		{/if}
 
-		{#if !company && innerWidth > 1024}
-			<!-- <LookingForBlock /> -->
-		{/if}
+		<!-- {#if !company && innerWidth > 1024}
+			<LookingForBlock />
+		{/if} -->
 	</div>
 
 	<div class="content">
@@ -121,9 +121,9 @@
 			<InformationBlock />
 		{/if}
 
-		{#if !company && innerWidth <= 1024}
+		<!-- {#if !company && innerWidth <= 1024}
 			<LookingForBlock />
-		{/if}
+		{/if} -->
 
 		<AchievementsBlock />
 		<ProjectsBlock />

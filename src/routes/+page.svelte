@@ -83,10 +83,12 @@
 	<title>{title}</title>
 	<meta name="description" content="I am a hands-on technical lead looking for new challanges." />
 	
-	<meta name="og:image" content={ogImage} >
-	<meta name="og:image:type" content="image/png" >
-	<meta name="og:image:width" content="1200" >
-	<meta name="og:image:height" content="627" >
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:url" content={ogImage} />
+	<meta property="og:image:secure_url" content={ogImage} />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="627" />
 </svelte:head>
 
 <main class="main">

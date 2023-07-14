@@ -22,7 +22,8 @@
 	import RobertHalf from '$lib/Components/Blocks/Personalisation/RobertHalf.svelte';
 	import KingsCollege from '$lib/Components/Blocks/Personalisation/KingsCollege.svelte';
 	import Delfi from '$lib/Components/Blocks/Personalisation/Delfi.svelte';
-	import postcss from 'postcss';
+	
+	import ogImage from '$lib/assets/andry-pedak.png';
 
 	let company: string;
 	let companyComponent: ComponentType;
@@ -81,6 +82,11 @@
 <svelte:head>
 	<title>{title}</title>
 	<meta name="description" content="I am a hands-on technical lead looking for new challanges." />
+	
+	<meta name="og:image" content={ogImage} >
+	<meta name="og:image:type" content="image/png" >
+	<meta name="og:image:width" content="1200" >
+	<meta name="og:image:height" content="627" >
 </svelte:head>
 
 <main class="main">

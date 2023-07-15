@@ -22,8 +22,6 @@
 	import RobertHalf from '$lib/Components/Blocks/Personalisation/RobertHalf.svelte';
 	import KingsCollege from '$lib/Components/Blocks/Personalisation/KingsCollege.svelte';
 	import Delfi from '$lib/Components/Blocks/Personalisation/Delfi.svelte';
-	
-	import ogImage from '$lib/assets/andry-pedak.png';
 
 	let company: string;
 	let companyComponent: ComponentType;
@@ -83,9 +81,9 @@
 	<title>{title}</title>
 	<meta name="description" content="I am a hands-on technical lead looking for new challanges." />
 	
-	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:url" content={ogImage} />
-	<meta property="og:image:secure_url" content={ogImage} />
+	<meta property="og:image" content="/andry-pedak.png" />
+	<meta property="og:image:url" content="/andry-pedak.png" />
+	<meta property="og:image:secure_url" content="/andry-pedak.png" />
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="627" />

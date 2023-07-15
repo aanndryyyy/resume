@@ -25,7 +25,7 @@
 
 	let company: string;
 	let companyComponent: ComponentType;
-	let title: string = 'Andry Pedak — Technical Lead';
+	let title: string = 'Andry Pedak | Technical Lead';
 	let innerWidth: number;
 
 	onMount(async () => {
@@ -33,7 +33,7 @@
 
 		switch (company) {
 			case 'wise':
-				title = 'Andry Pedak & Wise — Engineering Lead';
+				title = 'Andry Pedak & Wise | Engineering Lead';
 				companyComponent = Wise;
 				break;
 
@@ -43,12 +43,12 @@
 
 			case 'lightyear':
 				companyComponent = Lightyear;
-				title = 'Andry Pedak & Lightyear — Backend Software Engineer';
+				title = 'Andry Pedak & Lightyear | Backend Software Engineer';
 				break;
 
 			case 'kcl':
 				companyComponent = KingsCollege;
-				title = 'Andry Pedak & King’s College London — Web Developer';
+				title = 'Andry Pedak & King’s College London | Web Developer';
 				break;
 
 			case 'roberthalf':
@@ -57,7 +57,7 @@
 
 			case 'lhv':
 				companyComponent = LHV;
-				title = 'Andry Pedak & LHV — DevOps Engineer';
+				title = 'Andry Pedak & LHV | DevOps Engineer';
 				break;
 
 			case 'linkedin':
@@ -79,7 +79,7 @@
 
 <svelte:head>
 	<title>{title}</title>
-	<meta name="description" content="I am a hands-on technical lead looking for new challanges." />
+	<meta name="description" content="Unraveling Complexity: Empowering Orgs with Simple Technical Solutions | Hands-on technical lead looking for new challanges in London." />
 	
 	<meta property="og:image" content="/andry-pedak.png" />
 	<meta property="og:image:url" content="/andry-pedak.png" />
